@@ -1,0 +1,49 @@
+@import url(../Cesium/Build/Cesium/Widgets/widgets.css?srcVer=7.2.1.4239);
+@import url(./TerraExplorer.css?srcVer=7.2.1.4239);
+@import url(./datePicker.css?srcVer=7.2.1.4239);
+@import url(./spinner.css?srcVer=7.2.1.4239);
+@import url(./jquery-ui.min.css?srcVer=7.2.1.4239);
+@import url(../fonts/stylesheet.css?srcVer=7.2.1.4239);
+
+#cesiumContainer {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  overflow: hidden;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+/* #mainContainer {
+  position: relative;
+  height: 100%;
+  width: auto;
+  margin: 0;
+  overflow: hidden;
+  padding: 0;
+} */
+
+html {
+  height: 100%;
+}
+
+body {
+  background-color: white;
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
+  height: 100%;
+  font-family: "ubunturegular";
+}
+
+.sampleButtons {
+  top: 5%;
+  right: 1%;
+  z-index: 9999;
+  position: absolute;
+}
+
+#sideBar {
+  background-color: black;
+}
+

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"><head><script type="text/javascript" language="JavaScript">
+  //<![CDATA[
+  function reDo() {
+    if (innerWidth != origWidth || innerHeight != origHeight)
+      location.reload();
+  }
+  if ((parseInt(navigator.appVersion) == 4) && (navigator.appName == "Netscape")) {
+    origWidth = innerWidth;
+    origHeight = innerHeight;
+    onresize = reDo;
+  }
+  onerror = null;
+  //]]>
+</script>
+<style type="text/css">/*<![CDATA[*/
+
+  <!-- div.WebHelpPopupMenu {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    z-index: 4;
+    visibility: hidden;
+  }
+
+  p.WebHelpNavBar {
+    text-align: right;
+  }
+
+  -->
+
+/*]]>*/</style>
+
+<script type="text/javascript">//<![CDATA[
+
+  gRootRelPath = ".";
+  gCommonRootRelPath = ".";
+  gTopicId = "3.1_1";
+
+//]]></script>
+
+<script type="text/javascript" src="./template/scripts/rh.min.js"></script>
+<script type="text/javascript" src="./template/scripts/common.min.js"></script>
+<script type="text/javascript" src="./template/scripts/topic.min.js"></script>
+<script type="text/javascript" src="./template/scripts/topicwidgets.min.js"></script>
+<link rel="stylesheet" type="text/css" href="./template/styles/topic.min.css"/>
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta name="Generator" content="Adobe RoboHelp 2019"/>
+<meta name="OriginalFile" content="TE4WUG721.docx"/>
+ <meta name="topic-check-list" content="Ran Smart Index"/>
+<title>URL Parameters</title>
+<link rel="stylesheet" href="assets/css/TE4WUG721.css" type="text/css"/>
+<meta name="rh-index-keywords" content="URL Parameters"/></head>
+<body link="blue" vlink="purple">
+<h2>URL Parameters</h2>
+<p>Certain TE4W parameters can be defined from the URL query string, including the project to load and the TE4W configuration.</p>
+<p style=" margin-left:0in; text-indent:0in;" class="ProcedureHeader"><span dir="ltr"></span>To define these parameters:</p>
+<p style=" line-height:normal;" class="Bullet1"><span style=" font-family:Wingdings;">§<span style=" font:7.0pt &#39;Times New Roman&#39;;"> </span></span> <span dir="ltr"></span>Append the required parameters to the end of your TE4W URL query string. Multiple parameters can be added using a ‘&amp;&#39; to separate between parameters (e.g., http://www.skylineglobe.com/sg/terraexplorerweb/terraexplorer.html? config=config.kml&amp;catalogid=12345&amp;lang=chinese). Use the following format for each of the parameters:</p>
+<p style=" margin-top:0in; margin-right:0in; margin-bottom:.0001pt; margin-left:.5in; line-height:normal;" class="Bullet2"><span style=" font-family:Wingdings;">§<span style=" font:7.0pt &#39;Times New Roman&#39;;"> </span></span> <span dir="ltr"></span><b>TE4W project to load</b> - The project is identified by its catalog ID (catalogid) in SkylineGlobe Server.</p>
+<div style=" border:solid #D9D9D9 1.0pt; padding:1.0pt 4.0pt 1.0pt 4.0pt; background:#F2F2F2; margin-left:.5in; margin-right:0in;">
+<p style=" margin-left:0in; background:#F2F2F2;" class="code2">catalogid=[catalogNo]</p>
+</div>
+<p class="tabunderbullet">E.g.,</p>
+<div style=" border:solid #D9D9D9 1.0pt; padding:1.0pt 4.0pt 1.0pt 4.0pt; background:#F2F2F2; margin-left:.5in; margin-right:0in;">
+<p style=" margin-left:0in; background:#F2F2F2;" class="code2">catalogid=12345</p>
+</div>
+<p style=" margin-top:0in; margin-right:0in; margin-bottom:.0001pt; margin-left:.5in; line-height:normal;" class="Bullet2"><span style=" font-family:Wingdings;">§<span style=" font:7.0pt &#39;Times New Roman&#39;;"> </span></span> <span dir="ltr"></span><b>TE4W configuration</b> - This defines various elements of your TE4W including which layers TE4W can connect to, your website subdomains, screen overlay logo, copyright text, and search provider. Customized configurations are created in the TerraExplorer for Web Settings section of the Settings page. <b>See</b> “Creating Additional Customized Configurations” in the “SkylineGlobe Server User Guide for information.</p>
+<div style=" border:solid #D9D9D9 1.0pt; padding:1.0pt 4.0pt 1.0pt 4.0pt; background:#F2F2F2; margin-left:.5in; margin-right:0in;">
+<p style=" margin-left:0in; background:#F2F2F2;" class="code2">config=[filename]</p>
+</div>
+<p class="tabunderbullet">E.g.</p>
+<div style=" border:solid #D9D9D9 1.0pt; padding:1.0pt 4.0pt 1.0pt 4.0pt; background:#F2F2F2; margin-left:.5in; margin-right:0in;">
+<p style=" margin-left:0in; background:#F2F2F2;" class="code2">*… /TerraExplorer.html?config=Public</p>
+</div>
+
+
+</body></html>

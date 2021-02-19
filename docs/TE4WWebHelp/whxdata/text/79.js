@@ -1,0 +1,1 @@
+rh._.exports({"0":["Center Sign"],"1":["\n","\n","The Center Sign marks the 3D Window’s center point.","\n","\n","Center Sign","\n","To display the Center Sign:","\n","§"," "," ","On the ","sidebar",", click ","Settings"," "," and then in the sidebar’s ","View"," section, switch on the ","Center Sign",".","\n"," ","\n\n\n"],"2":["Center Sign"],"3":["Center Sign"],"id":"79"})

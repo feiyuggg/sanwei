@@ -1,0 +1,1 @@
+rh._.exports({"0":["Support for Message Popup"],"1":["\n","\n","Additional elements from a published TerraExplorer project are now supported in TE4W, including messages with a text string, HTML page, image, or attribute field values.","\n\n\n"],"4":["Support for Message Popup"],"id":"21"})

@@ -1,0 +1,614 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>TerraExplorer for Web - Manager</title>
+    <link rel="stylesheet" href="./css/Manager.css" />
+    <script src="./js/jquery.js" type="text/javascript"></script>
+    <script src="./defaultConfig.js" type="text/javascript"></script>
+    <link rel="shortcut icon" href='img/favicon.gif' />
+
+    <script src="./js/jquery.minicolors.min.js"></script>
+    <link rel="stylesheet" href="./css/jquery.minicolors.css">
+
+    <style>
+        .explanationText {
+            width: 650px;
+            color: gray;
+            /*float:right;*/
+            font-size:14px;
+            /*margin-left:30px;*/
+        }
+        .subheader {
+            font-size: 16px;
+            color: #0088BC;
+            }
+    </style>
+</head>
+
+<body onload="init()">
+    <!--<div style="width:1200px; position:absolute; left:20%;">-->
+    
+
+    <table style="width:100%" cellpadding="0px" cellspacing="0px" class="s16">
+       
+        <tr>
+            <td align="center">
+                <table width="1200px">
+                    <tr>
+                        <div class="explanationText" align="left" style="float:left;"><b>Note:</b> The Customization Code generated below must be copied and pasted manually into your KML configuration file. See details below.</div>
+                        <br />
+                    </tr>
+                    <!-- Load Configuration file -->
+                    <tr>
+                        <td>
+                            <p class="s26blue">Load Configuration File [optional]</p>
+                            <div class="explanationText">By default, the config.kml file under the TerraExplorerWeb folder is loaded for editing. If you want to modify a different configuration file, e.g., to create additional customized configurations, browse to or drag and drop the file.</div>
+                            <br />
+                            <span class="subheader">Configuration file: </span>
+                            <input id="ConfigFileId" class="inputText" type="file" />
+                            <div id="drop_zone" style="color:lightgray; text-align:center; width:418px; height:50px; border:dotted; border-color:lightgray; border-width:medium; border-radius:6px">Drop configuration file here</div>
+                            <!--<span class="s14gray">Select an existing configuration file</span>-->
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>
+                            <p class="s26blue">Server URL</p>
+                            <div class="explanationText">Please add your SG server address, e.g.: http://YourServerURL/sg/ </div>
+                            <br/>
+                            <input type="text" id="serverURLID" style="width:300px;" onchange="updateServerURL();" />
+                        </td>
+                    </tr>
+
+
+                    <tr>
+                        <td>
+                            <p class="s26blue">Subdomains</p>
+                            <div class="explanationText">The use of subdomains is highly recommended as a means of significantly increasing the number of concurrent connections to TerraExplorer for Web permitted by the browser and decreasing page load time. </div>
+                            <br />
+                            <span>Enable Subdomains</span><input type="checkbox" id="DomainCheckbox" onchange="enableSubdomains($('#DomainCheckbox').is(':checked'));"/>
+                            <br />
+                            <span>Type your domain name: &nbsp;</span><input type="text" style="width:300px;" id="domainName" onchange="updateDomainName();" /><br />
+                            <span>Type the names of your subdomains:</span><br />
+                            <div id="SubdomainsDiv"></div><input id="btnAddSubdomain" type="button" style="width:50px;" value="Add" onclick="addSubdomainField();"/>
+                        </td>
+                    </tr>
+                    <!--<tr>
+                        <td>
+                            <input type="button" value="Reset" onclick="resetAllSubdomains()" />
+                        </td>
+                    </tr>-->
+
+
+                    <!-- UI Language-->
+                    <!--<tr>
+                        <td>
+                            <p class="s26blue">GUI Language </p>
+                            <span>Language: </span>
+                            <select id="languageID" class="selectionBox" onchange="TEConfiguration.Lang = $('#languageID').find(':selected').val(); updateCode();">
+                                <option value="English">English </option>
+                                <option value="Chinese">Chinese </option>
+                                <option value="French">French </option>
+                                <option value="Spanish">Spanish </option>
+                            </select>
+                            <br />
+                            <span class="s14gray">Select the user interface language</span>
+                        </td>
+                    </tr>-->
+                    <!-- Main menu icon -->
+                    <!--<tr>
+                        <td>
+                            <p class="s26blue">Menu Button </p>
+                            <div style="display:flex;align-items:center;">
+                                <span style="float:left;">Icon URL: </span>
+                                <input id="menuIconID" class="inputText" type="text" value="./img/MenuButton.png" onchange="menuButtonChanged();" style="float:left; margin-right:10px" />
+                                <div style="width:45px; height:45px; border: 2px solid white; border-radius: 8px; background-color: rgba(0, 0, 0, .85); overflow: hidden; "><img id="menuImgID" src="./img/MenuButton.png" alt="" style="width:30px; height:30px; padding:7px 7px 7px 7px;" /></div>
+                            </div>
+                            <span class="s14gray">The menu icon should be a .gif, .png or .jpg file , 45x45 pixels</span>
+                        </td>
+                    </tr>-->
+
+                    <!-- Status bar -->
+                    <tr>
+                        <td>
+                            <p class="s26blue">Status Bar</p>
+                            <div class="explanationText">Select the check box to display the location coordinates in the TE4W status bar.</div>
+                            <!--<br />-->
+                            <input id="displayLocationID" type="checkbox" checked="checked" onchange="updateKml('sx\\:Layout sx\\:StatusBar sx\\:displayLocation, Layout',$('#displayLocationID').is(':checked'))" /> <span> Display location</span> <br /><br />
+                            <span class="subheader">Copyright text: </span>
+                            <div class="explanationText">Type the copyright text that you want displayed.</div>
+                            <input id="copyrightID" class="inputText" type="text" value="© 2017, Skyline Software Systems" onchange="updateKml('sx\\:Layout sx\\:StatusBar sx\\:copyrightText, Layout', $('#copyrightID').val());" />
+                        </td>
+                    </tr>
+
+                    <!-- Screen overlay -->
+                    <tr>
+                        <td>
+                            <p class="s26blue">Screen Overlay</p>
+                            <span class="subheader">Overlay URL: </span>
+                            <div class="explanationText">Optional screen overlay. The overlay file should be in .gif, .png or .jpg format.<br><small><b>Note:</b>	The path is relative to the TerraExplorerWeb folder.</small></div>
+                            <br />
+                            <input id="OverlayID" class="inputText" type="text" value="" onchange="updateImageOverlayPath($('#OverlayID').val());" />
+                            <img id="OverlayImageID" src="" alt="" align="absmiddle" style="background-color: rgba(0, 0, 0, .85)" />
+                            <br />
+                            <!--<span class="s14gray">Optional screen overlay. The overlay image should be a .gif, .png or .jpg file </span>--><br />
+                            <span class="subheader">Overlay position:</span>
+                            <div class="explanationText">Position for the screen overlay.</div>
+                            <select id="screenOverlayPositionID" class="selectionBox" onchange="updateImageOverlayPosition($('#screenOverlayPositionID').find(':selected').val());">
+                                <option value="0">Upper-right</option>
+                                <option value="1">Lower-right</option>
+                            </select> <br />
+
+                        </td>
+                    </tr>
+
+                    <!-- Search box -->
+                    <tr>
+                        <td>
+                            <p class="s26blue">Search Box</p>
+                            <div class="explanationText">Select the check box to display an address search box.</div>
+                            <input id="SearchID" type="checkbox" checked="checked" onchange="$('#searchURLID').prop('disabled', !$('#SearchID').prop('checked')); updateKml('sx\\:Layout sx\\:SearchBox visibility, Layout', $('#SearchID').is(':checked'));" /> <span> DIsplay address search box</span> <br /><br />
+                            <!--                    <input id="ReverseSearchID"  type="checkbox" checked="checked" /> <span > Enable long click to get address</span> <br />-->
+                            <span class="subheader">Search provider URL: </span>
+                            <div class="explanationText">If you want a customized search provider, type its details. For additional information contact: Support@Skylinesoft.com <br>
+                                                        <small><b>Note:</b>	When using a customized search provider “Enable CORS” must be selected on the SkylineGlobe Server Settings page box to enable cross-origin resource sharing, allowing requests from pages hosted on domains other than the SGS domain. See: “Setting SkylineGlobe Server Settings” in the “SkylineGlobe Server Settings” chapter for information.</small>
+                                                        </div>
+                            <input id="searchURLID" class="inputText" type="text" style="width:500px;" value="http://www.skylineglobe.com/SkylineGlobe" onchange="updateKml('sx\\:Layout sx\\:SearchBox sx\\:searchProvider, Layout', $('#searchURLID').val()); onSearchboxProviderChanged();" /><span id="SearchProviderErrorId" style="color:red;display: none;"> (Warrning: cannot find search provider)</span>
+                        </td>
+                    </tr>
+
+                    <!-- Application menu -->
+                    <!--<tr>
+                        <td>
+                            <p class="s26blue">Application Menu</p>
+                            <input id="menuPlacesID" type="checkbox" checked="checked" onchange="updateKml('sx\\:Layout sx\\:AppMenu sx\\:placesMenu, Layout', $('#menuPlacesID').is(':checked'));" /> <span> Places</span> <br />
+                            <input id="menuLayersID" type="checkbox" checked="checked" onchange="updateKml('sx\\:Layout sx\\:AppMenu sx\\:layersMenu, Layout', $('#menuLayersID').is(':checked'));" /> <span> Layers</span> <br />
+                            <input id="menuDistanceID" type="checkbox" checked="checked" onchange="updateKml('sx\\:Layout sx\\:AppMenu sx\\:analysisDistanceMenu, Layout', $('#menuDistanceID').is(':checked'));" /> <span> Analyze – Distance measurement</span> <br />
+                            <input id="menuAreaID" type="checkbox" checked="checked" onchange="updateKml('sx\\:Layout sx\\:AppMenu sx\\:analysisAreaMenu, Layout', $('#menuAreaID').is(':checked'));" /> <span> Analyze – Area measurement</span> <br />
+                            <input id="menuProfileID" type="checkbox" checked="checked" onchange="updateKml('sx\\:Layout sx\\:AppMenu sx\\:analysisProfileMenu, Layout', $('#menuProfileID').is(':checked'));" /> <span> Analyze – Terrain Profile</span> <br />
+                            <!--<input id="menuGPSID" type="checkbox" checked="checked" onchange="updateKml('sx\\:Layout sx\\:AppMenu sx\\:myLocationMenu, Layout', $('#menuGPSID').is(':checked'));" /> <span > My location</span> <br />-->
+                            <!--<input id="menuCaptureID" type="checkbox" checked="checked" onchange="updateKml('sx\\:Layout sx\\:AppMenu sx\\:captureAndShareMenu, Layout', $('#menuCaptureID').is(':checked'));" /> <span > Capture and Share</span> <br />-->
+                            <!--<input id="menuSettingsID" type="checkbox" checked="checked" onchange="updateKml('sx\\:Layout sx\\:AppMenu sx\\:settingsMenu, Layout', $('#menuSettingsID').is(':checked'));" /> <span> Settings Dialog</span> <br />-->
+                        <!--</td>-->
+                    <!--</tr>-->
+
+                    <tr>
+                        <td>
+                            <p class="s26blue">KML Parsing</p>
+                            <div class="explanationText">Select the check box if you want KMLs opened in TE4W to be parsed in the default Cesium way instead of natively by TE4W.</div>
+                            <span>Use Cesium KML Parsing:</span>&nbsp;
+                            <input id="startupProjectKMLParsing" type="checkbox" onchange="updateKml('sx\\:startupProjectKMLParsing, startupProjectKMLParsing', $('#startupProjectKMLParsing').is(':checked'))" /><br />
+                        
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td >
+                            <p class="s26red">Customization Code</p>
+                            <div class="explanationText">The Customization Code generated must be copied and pasted manually into your config.kml file under the TerraExplorerWeb folder.
+                             If you want to create additional customized configurations, create a new KML file (e.g., config2.kml) under the TerraExplorerWeb folder and copy your code into that file. Then add the “?config=[filename]” tag to the URL link to the page (e.g., *… /TerraExplorer.html?config=config2.kml).</div>
+                            <br />
+                            <!--<p><button onclick="copyToClipboard();">Copy to CLipboard</button></p>-->
+                            <textarea id="codeID" rows="20" cols="100" style=" font-size: 10pt;"></textarea><br />
+                        </td>
+                    </tr>
+
+                   
+
+
+
+                </table>
+            </td>
+        </tr>
+    </table>
+    <!--</div>-->
+  
+    <script type="text/javascript">
+
+        var scratchDomainTag = "<sx:domain name=''></sx:domain>";
+
+
+        function updateServerURL() {
+            if ($(baseKml).find('sx\\:serverUrl,serverUrl').length == 0) {
+                $('<sx:serverUrl></sx:serverUrl>').appendTo($(baseKml).find('Document'));
+            }
+            updateKml('sx\\:serverUrl, serverUrl', $('#serverURLID').val());
+        }
+
+
+        function getUrlParameters() {
+
+            var vars = [], hash;
+            var preHashes = window.location.href.replace(/%20/g, '');   //remove spaces
+            var hashes = preHashes.slice(window.location.href.indexOf('?') + 1).split('&');
+
+            for (var i = 0; i < hashes.length; i++) {
+                hash = hashes[i].split('=');
+                if (hash.length == 3 && hash[0] == "kmlUrl")
+                    hash[1] += "=" + hash[2];
+                vars.push(hash[0]);
+                vars[hash[0]] = hash[1];
+            }
+
+            return vars;
+        }
+
+
+        var g_defaultColor = "FFFFFFFF";
+        var g_defaultText = "text";
+        var g_defaultIcon = "./img/defaulticon.png";
+        var g_defaultModel = "";
+
+        //-----------------------
+        // init
+        function init() {
+
+
+            var configUrl = getUrlParameters()["config"]|| "config.kml";
+
+
+            function loadBaseKml(urlBaseKML) {
+
+                $.ajax({
+                    url: urlBaseKML,
+                    success: function (kml) {
+                        if (typeof kml == "string") {
+                            if (kml.indexOf('xmlns:gx') != -1) {
+                                baseKml = $.parseXML(kml);
+                            } else
+                                console.error("Not a valid google-earth string");
+                        }
+                        else {
+                            baseKml = kml;
+                        }
+                    },
+                    async: false
+                });
+
+                if (baseKml == undefined) {
+                    $("body").text("Error: default kml not found");
+                    return;
+                }
+            }
+            
+
+            loadBaseKml(configUrl);
+
+            updateFields();
+            $('#startupProjectKMLParsing')[0].checked = false;
+
+            var dropZone = document.getElementById('drop_zone');
+            dropZone.addEventListener('dragover', handleDragOver, false);
+            dropZone.addEventListener('drop', handleFileSelect, false);
+
+            //$("#drop_zone").bind('dragover', handleDragOver);
+            //$("#drop_zone").bind('drop', handleFileSelect);
+
+
+
+            updateCode();
+        }
+
+       
+
+
+        function updateCode() {
+
+            var serializer = new XMLSerializer();
+            if (typeof baseKml == "string")
+                baseKml = $.parseXML(baseKml);
+
+            //$(baseKml).find('sx\\:subdomain,subdomain').each(function (index, value) {
+            //    if ($(value).text() == "")
+            //        $(value).remove();
+            //});
+
+            var code = serializer.serializeToString(baseKml);
+
+            code = code.replace(/(\n\s+\n)/g, '\n');
+            $("#codeID").val(code);
+
+        }
+
+        function updateKml(path, val) {
+
+            $(baseKml).find(path).text(val);
+            updateCode();
+        }
+
+        var timeoutId;
+        function onSearchboxProviderChanged() {
+
+            if (timeoutId != undefined)
+                clearTimeout(timeoutId);
+
+            timeoutId = setTimeout(function () {
+
+                var request = $('#searchURLID').val();
+
+                $.ajax({
+                    dataType: "JSON",
+                    url: request,
+                    success: function (data) {
+                        $('#SearchProviderErrorId').hide();
+                    },
+                    error: function () {
+                        $('#SearchProviderErrorId').show();
+                    }
+                });
+
+                timeoutId = undefined;
+            }, 200);
+        }
+
+       
+        function disabledSubdomainsFields(disable) {
+            
+            $('#btnAddSubdomain').prop('disabled', disable);
+
+            $('#domainName').prop('disabled', disable);
+            var subdomains = $('#SubdomainsDiv input');
+            if (subdomains.length == 0)
+                return;
+
+            for (var i = 1; i <= subdomains.length; i++) {
+                $(subdomains[i-1]).prop('disabled', disable);
+            }
+        }
+
+
+        function enableSubdomains(enable) {
+            var isDomain = $(baseKml).find('sx\\:Domain,Domain').length>0;
+
+            if (enable) {
+                disabledSubdomainsFields(false);
+                if (!isDomain) {
+                    $(scratchDomainTag).appendTo($(baseKml).find('Document'));
+                    var domainTag = $(baseKml).find('sx\\:Domain,Domain');
+                    var subdomains = $('#SubdomainsDiv input');
+                    if (subdomains.length > 0) {
+                        subdomains.each(function (index, value) {
+                            $('<sx:subdomain>' + value.value + '</sx:subdomain>').appendTo(domainTag);
+                        });
+
+                    }
+
+                }
+                updateCode();
+
+            } else {
+                if (isDomain) {
+                    $(baseKml).find('sx\\:Domain,Domain').remove();
+                    updateCode();
+                }
+                disabledSubdomainsFields(true);
+            }
+
+        }
+
+        function updateImageOverlayPath(val) {
+
+            updateKml('ScreenOverlay Icon href', val);
+
+            $('#OverlayImageID').attr('src', val.length > 0 ? val : './img/empty.png');
+            updateKml('ScreenOverlay visibility', val.length > 0);
+        }
+
+
+
+        function updateDomainName() {
+
+            var valueDomain = $('#domainName').val();
+            var domain = $(baseKml).find('sx\\:Domain,Domain');
+            domain.attr('name', valueDomain);
+            updateCode();
+        }
+
+
+        function addSubdomainField() {
+            var numberOfSubdomains = $('#SubdomainsDiv input').length;
+            $('#SubdomainsDiv').append($('<span style="margin-left:70px;">#' + (numberOfSubdomains+1).toString() + ':&nbsp;</span><input type="text" style="width:300px;" value="New_Subdomain" onchange="updateSubdomains();" /> <br />'));
+            $('<sx:subdomain>1</sx:subdomain>').appendTo($(baseKml).find('sx\\:Domain,Domain'));
+            updateSubdomains();
+        }
+
+
+        function orderSubdomains() {
+            $('#SubdomainsDiv').empty();
+
+            var subdomainsFromKml = $(baseKml).find('sx\\:domain sx\\:subdomain, subdomain');
+            if (subdomainsFromKml.length > 0) {
+                $.each(subdomainsFromKml, function (index, value) {
+                    $('#SubdomainsDiv').append($('<span style="margin-left:70px;">#' + (index + 1).toString() + ':&nbsp;</span><input type="text" style="width:300px;" value=' + $(value).text() + ' onchange="updateSubdomains();" /> <br />'));
+                });
+            }
+        }
+
+
+        function updateSubdomains() {
+
+            var subdomains = $('#SubdomainsDiv input');
+            if (subdomains.length == 0)
+                return;
+
+            subdomainsTags = $(baseKml).find('sx\\:subdomain,subdomain');
+
+            subdomains.each(function (index, value) {
+                if (value.value == "") {
+                    value.remove();
+                    $(subdomainsTags[index]).remove();
+                }
+                $(subdomainsTags[index]).text(value.value);
+            });
+
+            orderSubdomains();
+
+            updateCode();
+        }
+
+     
+        function updateImageOverlayPosition(val) {
+
+            var $overlayXY = $(baseKml).find("ScreenOverlay overlayXY");
+            if ($overlayXY.length > 0) {
+
+                var screenXY = $(baseKml).find("ScreenOverlay screenXY");
+                if (screenXY.length > 0) {
+
+                    $overlayXY.attr("x", 1)
+                              .attr("y", Number(val));
+
+                    $overlayXY.attr("xunits", "fraction")
+                              .attr("yunits", "fraction");
+
+                    screenXY.attr("x", 20)
+                            .attr("y", 20);
+
+                    screenXY.attr("xunits", "insetPixels")
+                            .attr("yunits", (Number(val) == 1) ? "insetPixels" : "pixels");
+
+                    updateCode();
+                }
+            }
+        }
+
+        function updateFields() {
+
+            //$('#languageID option:contains(' + TEConfiguration.Lang + ')').prop('selected', true);
+
+
+            //var iconURL = $(baseKml).find('sx\\:Layout sx\\:MenuButton sx\\:iconUrl, Layout').text();
+            //$('#menuIconID').val(iconURL);
+            //$("#menuImgID").attr("src", iconURL);
+            $("#displayLocationID").prop("checked", $(baseKml).find('sx\\:Layout sx\\:StatusBar sx\\:displayLocation, Layout').text() === "true");
+            $('#copyrightID').val($(baseKml).find('sx\\:Layout sx\\:StatusBar sx\\:copyrightText, Layout').text());
+            $("#SearchID").prop("checked", $(baseKml).find('sx\\:Layout sx\\:SearchBox visibility, Layout').text() === "true");
+            $("#searchURLID").val($(baseKml).find('sx\\:Layout sx\\:SearchBox sx\\:searchProvider, Layout').text());
+
+            $('#serverURLID').val($(baseKml).find('sx\\:serverUrl,serverUrl').text());
+            //$("#menuPlacesID").prop("checked", $(baseKml).find('sx\\:Layout sx\\:AppMenu sx\\:placesMenu, Layout').text() === "true");
+            //$("#menuLayersID").prop("checked", $(baseKml).find('sx\\:Layout sx\\:AppMenu sx\\:layersMenu, Layout').text() === "true");
+            //$("#menuSettingsID").prop("checked", $(baseKml).find('sx\\:Layout sx\\:AppMenu sx\\:settingsMenu, Layout').text() === "true");
+            ////$("#menuGPSID").prop("checked", $(baseKml).find('sx\\:Layout sx\\:AppMenu sx\\:myLocationMenu, Layout').text() === "true");
+            ////$("#menuCaptureID").prop("checked", $(baseKml).find('sx\\:Layout sx\\:AppMenu sx\\:captureAndShareMenu, Layout').text() === "true");
+            //$("#menuDistanceID").prop("checked", $(baseKml).find('sx\\:Layout sx\\:AppMenu sx\\:analysisDistanceMenu, Layout').text() === "true");
+            //$("#menuAreaID").prop("checked", $(baseKml).find('sx\\:Layout sx\\:AppMenu sx\\:analysisAreaMenu, Layout').text() === "true");
+            //$("#menuProfileID").prop("checked", $(baseKml).find('sx\\:Layout sx\\:AppMenu sx\\:analysisProfileMenu, Layout').text() === "true");
+
+            iconURL = $(baseKml).find('ScreenOverlay Icon href').text();
+            $('#OverlayID').val(iconURL);
+            $("#OverlayImageID").attr("src", iconURL);
+
+            var num = Number($(baseKml).find('ScreenOverlay overlayXY').attr("y"));
+            num = (num == 1) ? 1 : 0;
+            $('#screenOverlayPositionID option[value=' + num + ']').prop('selected', true);
+
+            var domainFromKml = $(baseKml).find('sx\\:domain,domain');
+            if (domainFromKml.length > 0) {
+                $('#domainName').val($(domainFromKml[0]).attr('name'));
+                $('#domainName').append('<br/>');
+                $('#DomainCheckbox').prop('checked',true);
+            }
+            else
+                disabledSubdomainsFields(true);
+
+            var subdomainsFromKml = $(baseKml).find('sx\\:domain sx\\:subdomain, subdomain');
+            var firstSubdomain = true;
+            if (subdomainsFromKml.length > 0) {
+                $.each(subdomainsFromKml, function (index, value) {
+                    //add input fields and fill them with the data from kml
+                    if (firstSubdomain) {
+                        $('#domainName').append('<br/>');
+                        firstSubdomain = false;
+                    }
+                    $('#SubdomainsDiv').append($('<span style="margin-left:70px;">#' + (index + 1).toString() + ':&nbsp;</span><input type="text" style="width:300px;" value=' + $(value).text() + ' onchange="updateSubdomains();" /> <br />'));
+                });
+            }
+
+
+        }
+
+        //----------------------
+
+
+
+        function objToString(obj) {
+
+            var str = '{\n';
+            for (var p in obj) {
+                if (obj.hasOwnProperty(p)) {
+                    var isString = (typeof obj[p]) == "string";
+                    str += '\t' + p + ': ' + (isString ? "'" : "") + obj[p] + (isString ? "'" : "") + ',\n';
+                }
+            }
+
+            str += '}';
+
+            return str;
+        }
+
+
+        function menuButtonChanged() {
+
+            $('#menuImgID').attr('src', $('#menuIconID').val());
+            updateKml('sx\\:Layout sx\\:MenuButton sx\\:iconUrl, Layout', $('#menuIconID').val());
+        }
+
+      
+
+
+        function handleFileSelect(evt) {
+
+            evt.stopPropagation();
+            evt.preventDefault();
+
+            var files = (evt.dataTransfer != undefined) ? evt.dataTransfer.files : evt.target.files;
+
+            var f = files[0];
+            /*
+            if (f.type.search(/javascript/) < 0) {
+                alert("You must select a valid javascript file");
+                return;
+            }
+            */
+
+            var reader = new FileReader();
+
+            reader.onload = (function (theFile) {
+                return function (e) {
+
+                    try {
+                        baseKml = $.parseXML(e.target.result);
+                        if (baseKml.firstChild.tagName != "kml")
+                            throw "Error: xml file is not a kml";
+                    }
+                    catch (err) {
+                        alert("Invalid configuration file.\nConfiguration file should be KML.");
+                        $("#ConfigFileId").val("");
+                        return;
+                    }
+
+
+                    updateFields();
+
+                    updateCode();
+                };
+            })(f);
+
+            // Read in the image file as a data URL.
+            reader.readAsText(f);
+        }
+
+        function handleDragOver(evt) {
+            evt.stopPropagation();
+            evt.preventDefault();
+            evt.dataTransfer.dropEffect = 'copy'; // Explicitly show this is a copy.
+        }
+
+
+
+      
+
+    </script>
+</body>
+</html>

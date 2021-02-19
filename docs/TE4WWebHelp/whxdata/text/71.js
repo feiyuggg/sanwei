@@ -1,0 +1,1 @@
+rh._.exports({"0":["Deleting a Layer"],"1":["\n","\n","To delete a layer from your project:","\n","1.","    "," ","On the ","sidebar",", click the ","Layers"," tab.","\n","2.","    "," ","Click the layer you want to delete, and then click ","Edit"," "," ","> Delete"," ",".","\n\n\n"],"2":["Deleting a Layer"],"3":["Deleting,Deleting:Layer,Layer,Layer:Deleting"],"id":"71"})

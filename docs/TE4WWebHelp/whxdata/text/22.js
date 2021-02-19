@@ -1,0 +1,1 @@
+rh._.exports({"0":["Mobile-Friendly"],"1":["\n","\n","TE4W 7.2.1 is easily and readily accessible across most mobile platforms with optimized and responsive media display, so you can view, edit, and analyze your data on the go",".","\n","\n\n\n"],"3":["Mobile-Friendly"],"4":["Mobile-Friendly"],"id":"22"})

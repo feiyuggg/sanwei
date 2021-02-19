@@ -1,0 +1,1 @@
+rh._.exports({"0":["Selecting Layers for Display"],"1":["\n","\n","To select layers for display:","\n","§"," "," ","On the ","sidebar",", click the ","Layers"," tab, and then select the check marks of the layers you want to display.","\n\n\n"],"2":["Selecting Layers for Display"],"3":["Layer,Layer:Selecting,Selecting,Selecting:Layers"],"id":"66"})

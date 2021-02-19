@@ -1,0 +1,1 @@
+rh._.exports({"0":["Performance Improvements"],"1":["\n","\n","§"," "," "," ","Faster, smoother loading of 3D mesh layers","\n","§"," "," "," ","Increased frame rate to support lower hardware \n configuration settings","\n\n\n"],"3":["Performance Improvements"],"4":["Performance Improvements"],"id":"18"})

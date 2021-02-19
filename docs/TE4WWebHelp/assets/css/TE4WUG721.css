@@ -1,0 +1,2681 @@
+/*Created with Adobe RoboHelp 2017.*/
+@font-face {
+   font-family: Ubuntu-B;
+   src: url("Ubuntu-B.ttf");
+}
+@font-face {
+   font-family: Ubuntu-C;
+   src: url("Ubuntu-C.ttf");
+}
+@font-face {
+   font-family: Ubuntu-L;
+   src: url("Ubuntu-L.ttf");
+}
+@font-face {
+   font-family: Ubuntu-M;
+   src: url("Ubuntu-M.ttf");
+}
+@font-face {
+   font-family: Ubuntu-R;
+   src: url("Ubuntu-R.ttf");
+}
+@font-face {
+   font-family: Ubuntu;
+   src: url("Ubuntu-L.ttf");
+}
+p {
+	margin-top: 3.0pt;
+	margin-right: 0in;
+	margin-bottom: 15.0pt;
+	margin-left: 0in;
+	line-height: 150%;
+	font-family: Ubuntu;
+	font-size: 12pt;
+}
+p.fakehead4 {
+	margin-right: 0in;
+	margin-left: 0in;
+	line-height: normal;
+	font-weight: bold;
+	margin-top: 14pt;
+	margin-bottom: 14pt;
+	font-size: 14pt;
+	font-style: bold;
+	
+	font-family: Ubuntu;
+}
+p.fakehead5 {
+	margin-right: 0in;
+	margin-left: 0in;
+	line-height: normal;
+	font-weight: bold;
+	margin-top: 30pt;
+	margin-bottom: 14pt;
+	font-size: 12pt;
+	font-style: bold;
+	
+	font-family: Ubuntu;
+}
+p.fakehead55 {
+	margin-right: 0in;
+	margin-left: 0in;
+	line-height: normal;
+	font-weight: bold;
+	margin-top: 14pt;
+	margin-bottom: 14pt;
+	font-size: 12pt;
+	font-style: bold;
+	color: #077ca3;
+	font-family: Ubuntu;
+}
+p.fakehead6 {
+	margin-right: 0in;
+	margin-left: 0in;
+	line-height: normal;
+	font-weight: bold;
+	margin-top: 14pt;
+	margin-bottom: 14pt;
+	margin-left: 25pt;
+	font-size: 10pt;
+	font-style: italic;
+	color: #077ca3;
+	
+	font-family: Ubuntu;
+}
+h1 {
+	margin-top: 12.0pt;
+	margin-right: 0in;
+	margin-bottom: 3.0pt;
+	margin-left: .25in;
+	text-indent: -.25in;
+	line-height: 115%;
+	color: #087EA5;
+	text-transform: uppercase;
+	margin-top: 0in;
+	margin-right: 0in;
+	
+	border: none;
+	padding: 0in;
+	text-transform: uppercase;
+	font-size: 18pt;
+	font-family: Tahoma;
+}
+h2 {
+	margin-bottom: 27.5pt;
+	font-size: 26pt;
+	font-family: Ubuntu;
+	color: #077ca3;
+	font-style: normal;
+	font-weight: Lighter;
+	margin-left: 0pt;
+}
+h3 {
+	margin-right: 0in;
+	margin-left: 0in;
+	line-height: normal;
+	color: #077ca3;
+	margin-top: 14pt;
+	margin-bottom: 27.5pt;
+	font-size: 24pt;
+	font-style: normal;
+	font-weight: Lighter;
+	font-family: Ubuntu, sans-serif;
+}
+
+h4 {	
+	margin-right: 0in;
+	margin-left: 0in;
+	line-height: normal;
+	color: #077ca3;
+	margin-top: 14pt;
+	margin-bottom: 20pt;
+	font-size: 20pt;
+	font-style: normal;
+	font-weight: Lighter;
+	font-family: Ubuntu, sans-serif;
+}
+p.Heading4 {	
+	margin-right: 0in;
+	margin-left: 0in;
+	line-height: normal;
+	color: #077ca3;
+	margin-top: 14pt;
+	margin-bottom: 27.5pt;
+	font-size: 20pt;
+	font-style: normal;
+	font-weight: Lighter;
+	font-family: Ubuntu, sans-serif;
+}
+p.h4_RH {	
+	margin-right: 0in;
+	margin-left: 0in;
+	line-height: normal;
+	color: #077ca3;
+	margin-top: 14pt;
+	margin-bottom: 27.5pt;
+	font-size: 20pt;
+	font-style: normal;
+	font-weight: Lighter;
+	font-family: Ubuntu, sans-serif;
+}
+h5 {
+	margin-top: 12.0pt;
+	margin-right: 0in;
+	margin-bottom: 3.0pt;
+	margin-left: 0in;
+	line-height: 115%;
+	font-size: 16.0pt;
+	font-family: Arial, sans-serif;
+	font-weight: bold;
+}
+h6 {
+	margin-top: 12.0pt;
+	margin-right: 0in;
+	margin-bottom: 3.0pt;
+	margin-left: 0in;
+	line-height: 115%;
+	font-size: 16.0pt;
+	font-family: Arial, sans-serif;
+	font-weight: bold;
+}
+p.Heading7 {
+	margin-top: 12.0pt;
+	margin-right: 0in;
+	margin-bottom: 3.0pt;
+	margin-left: .75in;
+	text-indent: -.75in;
+	line-height: 115%;
+	font-size: 12.0pt;
+	font-family: Calibri, sans-serif;
+	font-weight: bold;
+}
+p.Heading8 {
+	margin-top: 3.0pt;
+	margin-right: 0in;
+	margin-bottom: 3.0pt;
+	margin-left: 69.1pt;
+	text-align: justify;
+	text-indent: -69.1pt;
+	line-height: 115%;
+	font-size: 10.0pt;
+	font-family: Arial, sans-serif;
+	font-weight: bold;
+}
+p.Heading9 {
+	margin-top: 12.0pt;
+	margin-right: 0in;
+	margin-bottom: 3.0pt;
+	margin-left: 1.1in;
+	text-indent: -1.1in;
+	line-height: 115%;
+	font-size: 10.0pt;
+	font-family: Arial, sans-serif;
+}
+p.Index1 {
+	margin-top: 3.0pt;
+	margin-right: 0in;
+	margin-bottom: 3.0pt;
+	margin-left: 0in;
+	line-height: normal;
+	font-size: 12.0pt;
+	font-family: Calibri, sans-serif;
+	font-style: italic;
+}
+p.Index2 {
+	margin-top: 3.0pt;
+	margin-right: 0in;
+	margin-bottom: 0in;
+	margin-left: 22.0pt;
+	margin-bottom: .0001pt;
+	text-indent: -12.0pt;
+	line-height: normal;
+	font-size: 12.0pt;
+	font-family: Calibri, sans-serif;
+}
+p.Toc1 {
+	margin-top: 9.0pt;
+	margin-right: 0in;
+	margin-bottom: 0in;
+	margin-left: 0in;
+	margin-bottom: .0001pt;
+	line-height: 115%;
+	font-size: 10.0pt;
+	font-family: Arial, sans-serif;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+p.Toc2 {
+	margin-top: 3.0pt;
+	margin-right: 0in;
+	margin-bottom: 0in;
+	margin-left: .25in;
+	margin-bottom: .0001pt;
+	line-height: 115%;
+	font-size: 10.0pt;
+	font-family: Arial, sans-serif;
+}
+p.Toc3 {
+	margin-top: 0in;
+	margin-right: 0in;
+	margin-bottom: 0in;
+	margin-left: 10.0pt;
+	margin-bottom: .0001pt;
+	line-height: 115%;
+	font-size: 9.0pt;
+	font-family: Arial, sans-serif;
+}
+p.Toc4 {
+	margin-top: 3.0pt;
+	margin-right: 0in;
+	margin-bottom: 0in;
+	margin-left: .5in;
+	margin-bottom: .0001pt;
+	line-height: 115%;
+	font-size: 12.0pt;
+	font-family: Arial, sans-serif;
+}
+p.Toc5 {
+	margin-top: 3.0pt;
+	margin-right: 0in;
+	margin-bottom: 3.0pt;
+	margin-left: 32.0pt;
+	line-height: 115%;
+	font-size: 9.0pt;
+	font-family: Calibri, sans-serif;
+}
+p.Toc6 {
+	margin-top: 3.0pt;
+	margin-right: 0in;
+	margin-bottom: 3.0pt;
+	margin-left: 40.0pt;
+	line-height: 115%;
+	font-size: 9.0pt;
+	font-family: Calibri, sans-serif;
+}
+p.Toc7 {
+	margin-top: 3.0pt;
+	margin-right: 0in;
+	margin-bottom: 3.0pt;
+	margin-left: 48.0pt;
+	line-height: 115%;
+	font-size: 9.0pt;
+	font-family: Calibri, sans-serif;
+}
+p.Toc8 {
+	margin-top: 3.0pt;
+	margin-right: 0in;
+	margin-bottom: 3.0pt;
+	margin-left: 70.0pt;
+	line-height: 115%;
+	font-size: 10.0pt;
+	font-family: Arial, sans-serif;
+}
+p.Toc9 {
+	margin-top: 3.0pt;
+	margin-right: 0in;
+	margin-bottom: 3.0pt;
+	margin-left: 80.0pt;
+	line-height: 115%;
+	font-size: 10.0pt;
+	font-family: Arial, sans-serif;
+}
+p.CommentText {
+	margin-top: 3.0pt;
+	margin-right: 0in;
+	margin-bottom: 6.0pt;
+	margin-left: 0in;
+	text-align: justify;
+	line-height: 150%;
+	font-size: 12.0pt;
+	font-family: Ubuntu;
+}
+p.Header {
+	margin-top: 3.0pt;
+	margin-right: 0in;
+	margin-bottom: 3.0pt;
+	margin-left: 0in;
+	text-align: justify;
+	line-height: 115%;
+	font-size: 10.0pt;
+	font-family: Arial, sans-serif;
+	font-weight: bold;
+}
+p.Footer {
+	margin-top: 3.0pt;
+	margin-right: 0in;
+	margin-bottom: 6.0pt;
+	margin-left: 0in;
+	text-align: justify;
+	line-height: 115%;
+	font-size: 10.0pt;
+	font-family: Arial, sans-serif;
+}
+p.Caption {
+	margin-top: 3.0pt;
+	margin-right: 0in;
+	margin-bottom: 12.0pt;
+	margin-left: 0in;
+	text-align: center;
+	line-height: 115%;
+	font-size: 9.0pt;
+	color: #737373;
+	font-family: Ubuntu;
+}
+p.Tof {
+	margin-top: 3.0pt;
+	margin-right: 0in;
+	margin-bottom: 3.0pt;
+	margin-left: 16.0pt;
+	text-indent: -16.0pt;
+	line-height: 115%;
+	font-size: 10.0pt;
+	font-family: Arial, sans-serif;
+}
+p.ListNumber {
+	margin-top: 3.0pt;
+	margin-right: 0in;
+	margin-bottom: 3.0pt;
+	margin-left: .25in;
+	text-indent: -.25in;
+	line-height: normal;
+	font-size: 12.0pt;
+	font-family: Calibri, sans-serif;
+}
+p.ListNumberCxSpFirst {
+	margin-top: 3.0pt;
+	margin-right: 0in;
+	margin-bottom: 0in;
+	margin-left: .25in;
+	margin-bottom: .0001pt;
+	text-indent: -.25in;
+	line-height: normal;
+	font-size: 12.0pt;
+	font-family: Calibri, sans-serif;
+}
+p.ListNumberCxSpMiddle {
+	margin-top: 0in;
+	margin-right: 0in;
+	margin-bottom: 0in;
+	margin-left: .25in;
+	margin-bottom: .0001pt;
+	text-indent: -.25in;
+	line-height: normal;
+	font-size: 12.0pt;
+	font-family: Calibri, sans-serif;
+}
+p.ListNumberCxSpLast {
+	margin-top: 0in;
+	margin-right: 0in;
+	margin-bottom: 3.0pt;
+	margin-left: .25in;
+	text-indent: -.25in;
+	line-height: normal;
+	font-size: 12.0pt;
+	font-family: Calibri, sans-serif;
+}
+p.ListBullet2 {
+	margin-top: 3.0pt;
+	margin-right: 0in;
+	margin-bottom: 3.0pt;
+	margin-left: 1.0in;
+	text-indent: -.25in;
+	line-height: normal;
+	font-size: 12.0pt;
+	font-family: Calibri, sans-serif;
+}
+p.ListBullet3 {
+	margin-top: 3.0pt;
+	margin-right: 0in;
+	margin-bottom: 3.0pt;
+	margin-left: 1.25in;
+	text-indent: -.25in;
+	line-height: normal;
+	font-size: 12.0pt;
+	font-family: Calibri, sans-serif;
+}
+p.ListBullet4 {
+	margin-top: 3.0pt;
+	margin-right: 0in;
+	margin-bottom: 3.0pt;
+	margin-left: 0in;
+	text-indent: 0in;
+	line-height: normal;
+	font-size: 12.0pt;
+	font-family: Calibri, sans-serif;
+}
+p.ListBullet5 {
+	margin-top: 3.0pt;
+	margin-right: 0in;
+	margin-bottom: 3.0pt;
+	margin-left: 1.5in;
+	text-indent: -.25in;
+	line-height: normal;
+	font-size: 12.0pt;
+	font-family: Calibri, sans-serif;
+}
+p.Title {
+	margin-top: 12.0pt;
+	margin-right: 0in;
+	margin-bottom: 3.0pt;
+	margin-left: 0in;
+	text-align: center;
+	line-height: 115%;
+	font-size: 16.0pt;
+	font-family: Arial, sans-serif;
+}
+p.BodyText_RH {
+	margin-top: 5.0pt;
+	margin-right: 0in;
+	margin-bottom: 5.0pt;
+	margin-left: 0in;
+	line-height: 115%;
+	font-size: 10.0pt;
+	font-family: Arial, sans-serif;
+	layout-grid-mode: line;
+}
+p.BodyTextIndent {
+	margin-top: 3.0pt;
+	margin-right: 0in;
+	margin-bottom: 6.0pt;
+	margin-left: .5in;
+	text-align: justify;
+	line-height: normal;
+	font-size: 10.0pt;
+	font-family: Arial, sans-serif;
+}
+p.ListContinue2 {
+	margin-top: 1.5pt;
+	margin-right: 0in;
+	margin-bottom: 3.0pt;
+	margin-left: .5in;
+	text-align: justify;
+	line-height: normal;
+	font-size: 12.0pt;
+	font-family: Calibri, sans-serif;
+}
+p.ListContinue3 {
+	margin-top: 1.5pt;
+	margin-right: 0in;
+	margin-bottom: 3.0pt;
+	margin-left: .75in;
+	text-align: justify;
+	line-height: normal;
+	font-size: 12.0pt;
+	font-family: Calibri, sans-serif;
+}
+p.ListContinue4 {
+	margin-top: 1.5pt;
+	margin-right: 0in;
+	margin-bottom: 3.0pt;
+	margin-left: 1.0in;
+	text-align: justify;
+	line-height: normal;
+	font-size: 12.0pt;
+	font-family: Calibri, sans-serif;
+}
+p.ListContinue5 {
+	margin-top: 1.5pt;
+	margin-right: 0in;
+	margin-bottom: 3.0pt;
+	margin-left: 1.25in;
+	text-align: justify;
+	line-height: normal;
+	font-size: 12.0pt;
+	font-family: Calibri, sans-serif;
+}
+p.Subtitle {
+	margin-top: 3.0pt;
+	margin-right: 0in;
+	margin-bottom: 3.0pt;
+	margin-left: 0in;
+	line-height: 115%;
+	font-size: 12.0pt;
+	font-family: Cambria, serif;
+	color: #4F81BD;
+	letter-spacing: .75pt;
+	font-style: italic;
+}
+p.Date {
+	margin-top: 3.0pt;
+	margin-right: 0in;
+	margin-bottom: 3.0pt;
+	margin-left: 0in;
+	line-height: 115%;
+	font-size: 10.0pt;
+	font-family: Arial, sans-serif;
+}
+p.BodyText2 {
+	margin-top: 3.0pt;
+	margin-right: 0in;
+	margin-bottom: 0in;
+	margin-left: 0in;
+	margin-bottom: .0001pt;
+	line-height: normal;
+	font-size: 9.0pt;
+	font-family: "Courier New";
+	color: #993366;
+}
+p.BodyText3 {
+	margin-top: 3.0pt;
+	margin-right: 0in;
+	margin-bottom: 0in;
+	margin-left: 0in;
+	margin-bottom: .0001pt;
+	line-height: normal;
+	font-size: 9.0pt;
+	font-family: "Courier New";
+	color: #333399;
+}
+p.BodyTextIndent2 {
+	margin-top: 3.0pt;
+	margin-right: 0in;
+	margin-bottom: 6.0pt;
+	margin-left: .25in;
+	text-align: justify;
+	line-height: normal;
+	font-size: 10.0pt;
+	font-family: Arial, sans-serif;
+}
+p.BodyTextIndent3 {
+	margin-top: 3.0pt;
+	margin-right: 0in;
+	margin-bottom: 0in;
+	margin-left: .25in;
+	margin-bottom: .0001pt;
+	line-height: normal;
+	font-size: 10.0pt;
+	font-family: "Times New Roman", serif;
+}
+span.Hyperlink {
+	color: #0000ff;
+	text-underline: single;
+	text-decoration: underline;
+}
+span.HyperlinkFollowed {
+	color: #800080;
+	text-underline: single;
+	text-decoration: underline;
+}
+p.DocumentMap {
+	margin-top: 3.0pt;
+	margin-right: 0in;
+	margin-bottom: 3.0pt;
+	margin-left: 0in;
+	line-height: 115%;
+	background: #000080;
+	font-size: 10.0pt;
+	font-family: Tahoma, sans-serif;
+}
+p.PlainText {
+	margin-top: 3.0pt;
+	margin-right: 0in;
+	margin-bottom: 3.0pt;
+	margin-left: 0in;
+	line-height: 115%;
+	font-size: 10.0pt;
+	font-family: "Courier New";
+}
+p.CommentSubject {
+	margin-top: 3.0pt;
+	margin-right: 0in;
+	margin-bottom: 3.0pt;
+	margin-left: 0in;
+	line-height: 115%;
+	font-size: 10.0pt;
+	font-family: Arial, sans-serif;
+	font-weight: bold;
+}
+p.Acetate {
+	margin: 0in;
+	margin-bottom: .0001pt;
+	line-height: 115%;
+	font-size: 8.0pt;
+	font-family: Tahoma, sans-serif;
+}
+p.NoSpacing {
+	margin-top: 3.0pt;
+	margin-right: 0in;
+	margin-bottom: 0in;
+	margin-left: 0in;
+	margin-bottom: .0001pt;
+	line-height: 115%;
+	font-size: 8.0pt;
+	font-family: Arial, sans-serif;
+}
+p.RMPane {
+	margin: 0in;
+	margin-bottom: .0001pt;
+	line-height: normal;
+	font-size: 10.0pt;
+	font-family: "Times New Roman", serif;
+}
+p.ListParagraph {
+	margin-top: 3.0pt;
+	margin-right: 0in;
+	margin-bottom: 3.0pt;
+	margin-left: .5in;
+	line-height: 115%;
+	font-size: 10.0pt;
+	font-family: Arial, sans-serif;
+}
+p.Quote {
+	margin-top: 3.0pt;
+	margin-right: 0in;
+	margin-bottom: 0in;
+	margin-left: 0in;
+	margin-bottom: .0001pt;
+	line-height: normal;
+	font-size: 10.0pt;
+	font-family: "Times New Roman", serif;
+	color: #000000;
+	font-style: italic;
+}
+p.IntenseQuote {
+	margin-top: 10.0pt;
+	margin-right: .65in;
+	margin-bottom: 14.0pt;
+	margin-left: .65in;
+	line-height: normal;
+	border: none;
+	padding: 0in;
+	font-size: 10.0pt;
+	font-family: "Times New Roman", serif;
+	color: #4F81BD;
+	font-weight: bold;
+	font-style: italic;
+}
+span.SubtleEmphasis {
+	color: #808080;
+	font-style: italic;
+}
+span.IntenseEmphasis {
+	color: #4F81BD;
+	font-weight: bold;
+	font-style: italic;
+}
+p.TocHeading {
+	margin-top: 12.0pt;
+	margin-right: 0in;
+	margin-bottom: 3.0pt;
+	margin-left: 0in;
+	line-height: 115%;
+	font-size: 14.0pt;
+	font-family: Cambria, serif;
+	color: #365F91;
+	text-transform: uppercase;
+}
+span.Heading1 {
+	font-family: Arial, sans-serif;
+	color: #087EA5;
+	text-transform: uppercase;
+}
+span.Heading2 {
+	font-family: Arial, sans-serif;
+	color: #087EA5;
+}
+span.Heading3 {
+	font-family: Arial, sans-serif;
+	color: #087EA5;
+}
+span.Heading4 {	
+	margin-right: 0in;
+	margin-left: 0in;
+	line-height: normal;
+	color: #077ca3;
+	margin-top: 14pt;
+	margin-bottom: 27.5pt;
+	font-size: 20pt;
+	font-style: normal;
+	font-weight: Lighter;
+	font-family: Ubuntu, sans-serif;
+}
+span.Heading5 {
+	font-family: Arial, sans-serif;
+	font-weight: bold;
+}
+span.Heading6 {
+	font-family: Arial, sans-serif;
+	font-weight: bold;
+}
+span.Heading7 {
+	font-family: "Times New Roman", serif;
+	font-weight: bold;
+}
+span.Heading8 {
+	font-family: Arial, sans-serif;
+	font-weight: bold;
+}
+span.Heading9 {
+	font-family: Arial, sans-serif;
+}
+p.Figure {
+	margin-top: 12.0pt;
+	margin-right: 0in;
+	margin-bottom: 12.0pt;
+	margin-left: 0in;
+	text-align: center;
+	line-height: 115%;
+	font-size: 10.0pt;
+	font-family: Arial, sans-serif;
+}
+span.Footer {
+	font-family: Arial, sans-serif;
+}
+span.Header {
+	font-family: Arial, sans-serif;
+	font-weight: bold;
+}
+p.FieldName {
+	margin-top: 3.0pt;
+	margin-right: 0in;
+	margin-bottom: 6.0pt;
+	margin-left: .5in;
+	line-height: 115%;
+	font-size: 10.0pt;
+	font-family: Arial, sans-serif;
+	font-style: italic;
+}
+span.DocumentMap {
+	font-family: Tahoma, sans-serif;
+	background: #000080;
+}
+span.BodyText {
+	font-family: Arial, sans-serif;
+	layout-grid-mode: both;
+}
+p.Note {
+	margin-top: 3.0pt;
+	margin-right: 0in;
+	margin-bottom: 3.0pt;
+	margin-left: .5in;
+	text-indent: -.5in;
+	line-height: 150%;
+	font-family: Ubuntu;
+	font-size: 12pt;
+}
+p.code {
+	margin-top: 3.0pt;
+	margin-right: 0in;
+	margin-bottom: 3.0pt;
+	margin-left: 0in;
+	line-height: 115%;
+	font-size: 9.0pt;
+	font-family: "Times New Roman", serif;
+	font-style: italic;
+	margin-top: 3.0pt;
+	margin-right: 0in;
+	margin-bottom: 6.0pt;
+	margin-left: 63.0pt;
+	text-indent: -63.0pt;
+	line-height: 115%;
+	text-autospace: none;
+	font-size: 9.0pt;
+	font-family: Tahoma, sans-serif;
+}
+p.Heading33 {
+	margin-top: 8.4pt;
+	margin-right: 0in;
+	margin-bottom: 3.0pt;
+	margin-left: 0in;
+	line-height: 115%;
+	font-size: 13.0pt;
+	font-family: "Times New Roman", serif;
+	font-weight: bold;
+}
+p.Default {
+	margin-top: 4.0pt;
+	margin-right: 0in;
+	margin-bottom: 3.0pt;
+	margin-left: .25in;
+	text-align: justify;
+	text-indent: -.05in;
+	line-height: 115%;
+	text-autospace: none;
+	font-size: 15.0pt;
+	font-family: Arial, sans-serif;
+}
+p.Image {
+	margin-top: 3.0pt;
+	margin-right: 0in;
+	margin-bottom: 3.0pt;
+	margin-left: 0in;
+	text-align: center;
+	text-indent: 31.85pt;
+	line-height: 115%;
+	font-size: 9.0pt;
+	font-family: Arial, sans-serif;
+	font-weight: bold;
+}
+span.Bullet2 {
+	font-family: Arial, sans-serif;
+}
+p.Bullet2_RH {
+	margin-top: 3.0pt;
+	margin-right: 0in;
+	margin-bottom: 3.0pt;
+	margin-left: .5in;
+	text-indent: -.25in;
+	line-height: 115%;
+	font-size: 10.0pt;
+	font-family: Arial, sans-serif;
+}
+span.Date {
+	font-family: Arial, sans-serif;
+}
+span.Title {
+	font-family: Arial, sans-serif;
+}
+p.NoteSecondLevel {
+	margin-top: 3.0pt;
+	margin-right: 0in;
+	margin-bottom: 3.0pt;
+	line-height: 150%;
+	font-family: Ubuntu;
+	font-size: 12pt;
+	text-indent: -0.72in;
+	margin-left: 0.97in;
+}
+p.Bullet3 {
+	margin-top: 3.0pt;
+	margin-right: 0in;
+	margin-bottom: 3.0pt;
+	margin-left: .75in;
+	text-indent: -.25in;
+	line-height: 115%;
+	font-family: Ubuntu;
+	font-size: 12pt;
+}
+p.ListThirdLevel {
+	margin-top: 3.0pt;
+	margin-right: 0in;
+	margin-bottom: 3.0pt;
+	margin-left: .75in;
+	text-indent: -.25in;
+	line-height: 115%;
+	font-size: 10.0pt;
+	font-family: Arial, sans-serif;
+}
+p.ListSecondLevel {
+	margin-top: 6.0pt;
+	margin-right: 0in;
+	margin-bottom: 3.0pt;
+	margin-left: .5in;
+	text-indent: -.28in;
+	
+	line-height: 150%;
+	font-family: Ubuntu;
+	font-size: 12pt;
+}
+p.Bullet1_RH {
+	margin-top: 8.0pt;
+	margin-right: 0in;
+	layout-grid-mode: char;
+	font-size: 10.0pt;
+	font-family: Arial, sans-serif;
+	layout-grid-mode: line;
+	margin-bottom: 9.5pt;
+	line-height: 150%;
+	text-indent: -0.17in;
+	margin-left: 0.42in;
+}
+p.Bullet1RH {
+	margin-top: 8.0pt;
+	margin-right: 0in;
+	layout-grid-mode: char;
+	layout-grid-mode: line;
+	margin-bottom: 9.5pt;
+	line-height: 150%;
+	text-indent: -0.17in;
+	font-family: Ubuntu;
+	font-size: 12pt;
+	margin-left: 18pt;
+}
+span.Bullet1 {
+	font-family: Arial, sans-serif;
+	layout-grid-mode: both;
+}
+p.ListFirstLevel {
+	margin-right: 0in;
+	margin-left: .25in;
+	text-indent: -.25in;
+	margin-top: 7.5pt;
+	margin-bottom: 7.5pt;
+	line-height: 150%;
+	font-family: Ubuntu;
+	font-size: 12pt;
+}
+p.Tab {
+	margin-top: 3.0pt;
+	margin-right: 0in;
+	margin-bottom: 3.0pt;
+	margin-left: .25in;
+	line-height: 115%;
+	font-size: 10.0pt;
+	font-family: Arial, sans-serif;
+}
+p.Bullet4 {
+	margin-top: 3.0pt;
+	margin-right: 0in;
+	margin-bottom: 0in;
+	margin-left: 2.0in;
+	margin-bottom: .0001pt;
+	text-indent: -.25in;
+	line-height: 115%;
+	font-size: 10.0pt;
+	font-family: Arial, sans-serif;
+}
+p.Heading2Numbered {
+	margin-top: .25in;
+	margin-right: 0in;
+	margin-bottom: 3.0pt;
+	margin-left: 0in;
+	text-indent: 0in;
+	line-height: normal;
+	font-size: 16.0pt;
+	font-family: Calibri, sans-serif;
+	font-weight: bold;
+}
+p.ListSecondLevelNumbered {
+	margin-top: 3.0pt;
+	margin-right: 0in;
+	margin-bottom: 3.0pt;
+	margin-left: .5in;
+	text-indent: -.25in;
+	line-height: 115%;
+	font-size: 10.0pt;
+	font-family: Arial, sans-serif;
+}
+p.ListThirdLevelNumbered {
+	margin-top: 6.0pt;
+	margin-right: 0in;
+	margin-bottom: 3.0pt;
+	margin-left: .75in;
+	text-indent: -.25in;
+	line-height: normal;
+	font-size: 10.0pt;
+	font-family: Verdana, sans-serif;
+}
+p.Heading3Numbered {
+	margin-top: 12.0pt;
+	margin-right: 0in;
+	margin-bottom: 3.0pt;
+	margin-left: 0in;
+	text-indent: 0in;
+	line-height: normal;
+	font-size: 12.0pt;
+	font-family: Calibri, sans-serif;
+	font-weight: bold;
+}
+p.NoteThirdLevel {
+	margin-top: 3.0pt;
+	margin-right: 0in;
+	margin-bottom: 3.0pt;
+	margin-left: 1.0in;
+	text-indent: -.5in;
+	line-height: 150%;
+	font-size: 12.0pt;
+	font-family: Ubuntu;
+}
+p.ListFirstLevelNumbered {
+	margin-top: 3.0pt;
+	margin-right: 0in;
+	margin-bottom: 3.0pt;
+	margin-left: .25in;
+	text-indent: -.25in;
+	line-height: 115%;
+	font-size: 10.0pt;
+	font-family: Arial, sans-serif;
+}
+p.Tab2 {
+	margin-top: 3.0pt;
+	margin-right: 0in;
+	margin-bottom: 3.0pt;
+	margin-left: .5in;
+	line-height: 115%;
+	font-size: 10.0pt;
+	font-family: Arial, sans-serif;
+}
+p.Tab3 {
+	margin-top: 3.0pt;
+	margin-right: 0in;
+	margin-bottom: 3.0pt;
+	margin-left: .75in;
+	line-height: 115%;
+	font-size: 10.0pt;
+	font-family: Arial, sans-serif;
+}
+p.Warning {
+	margin-top: 3.0pt;
+	margin-right: 0in;
+	margin-bottom: 3.0pt;
+	margin-left: .25in;
+	text-indent: -.25in;
+	line-height: 115%;
+	font-size: 10.0pt;
+	font-family: Arial, sans-serif;
+}
+p.ProcedureHeader {
+	margin-top: 6.0pt;
+	margin-right: 0in;
+	text-indent: 0in;
+	line-height: normal;
+	margin-bottom: 9pt;
+	font-family: Ubuntu;
+	font-size: 12.5pt;
+	margin-left: 18pt;
+	font-weight: bold;
+}
+span.crossreference {
+	color: #0000ff;
+	text-underline: single;
+	text-decoration: underline;
+}
+span.crossreferenceblue {
+	color: #0000ff;
+	text-underline: single;
+	text-decoration: underline;
+}
+p.ListFourthLevel {
+	margin-top: 3.0pt;
+	margin-right: 0in;
+	margin-bottom: 3.0pt;
+	margin-left: 1.0in;
+	text-indent: -.25in;
+	line-height: 115%;
+	font-size: 10.0pt;
+	font-family: Arial, sans-serif;
+}
+span.ListParagraph {
+	font-family: Arial, sans-serif;
+}
+span.BalloonText {
+	font-family: Tahoma, sans-serif;
+}
+span.CommentText {
+	font-family: Ubuntu;
+}
+span.CommentSubject {
+	font-family: Arial, sans-serif;
+	font-weight: bold;
+}
+p.NoteIcon {
+	margin-top: 3.0pt;
+	margin-right: 0in;
+	margin-bottom: 3.0pt;
+	margin-left: .25in;
+	text-indent: -.25in;
+	line-height: 115%;
+	font-size: 10.0pt;
+	font-family: Arial, sans-serif;
+}
+p.tutorialheading3 {
+	margin-top: 12.0pt;
+	margin-right: 0in;
+	margin-bottom: 3.0pt;
+	margin-left: .25in;
+	text-indent: -.25in;
+	line-height: normal;
+	font-size: 11.5pt;
+	font-family: Arial, sans-serif;
+	color: #087EA5;
+}
+p.tutorialheading4 {
+	margin-top: 6.0pt;
+	margin-right: 0in;
+	margin-bottom: 3.0pt;
+	margin-left: .25in;
+	text-indent: -.25in;
+	line-height: 115%;
+	font-size: 12.0pt;
+	font-family: Arial, sans-serif;
+	color: #087EA5;
+}
+span.browsetolocation {
+	font-style: italic;
+}
+p.intro {
+	margin-right: 0in;
+	margin-left: 0in;
+	line-height: 115%;
+	font-size: 12.0pt;
+	font-family: "Times New Roman", serif;
+}
+p.sitetitle {
+	margin-top: 12.0pt;
+	margin-right: 0in;
+	margin-bottom: 0in;
+	margin-left: 0in;
+	margin-bottom: .0001pt;
+	line-height: 115%;
+	font-size: 18.0pt;
+	font-family: "Lucida Sans Unicode", sans-serif;
+}
+p.sitesubtitle {
+	margin-top: 3.0pt;
+	margin-right: 0in;
+	margin-bottom: 6.0pt;
+	margin-left: 0in;
+	line-height: 115%;
+	font-size: 14.0pt;
+	font-family: Calibri, sans-serif;
+	color: #548DD4;
+}
+p.Bullet {
+	margin-top: 0in;
+	margin-right: 0in;
+	margin-bottom: 0in;
+	margin-left: .5in;
+	margin-bottom: .0001pt;
+	text-indent: -.25in;
+	line-height: 115%;
+	font-size: 10.0pt;
+	font-family: "Times New Roman", serif;
+}
+p.Linespace {
+	margin-top: 0in;
+	margin-right: 6.5pt;
+	margin-bottom: 3.0pt;
+	margin-left: 7.1pt;
+	line-height: normal;
+	font-size: 6.0pt;
+	font-family: Verdana, sans-serif;
+}
+span.Fronttitle {
+	font-family: "Arial Narrow", sans-serif;
+	layout-grid-mode: both;
+	font-weight: bold;
+}
+p.versionnumber {
+	margin-top: 0in;
+	margin-right: 0in;
+	margin-bottom: 6.0pt;
+	margin-left: 0in;
+	text-align: center;
+	line-height: 115%;
+	font-size: 28.0pt;
+	font-family: Arial, sans-serif;
+	color: #AAAAB4;
+}
+p.fronttitle {
+	margin-top: 0in;
+	margin-right: 6.5pt;
+	margin-bottom: 3.0pt;
+	margin-left: 7.1pt;
+	text-align: center;
+	line-height: normal;
+	font-size: 32.0pt;
+	font-family: "Arial Black", sans-serif;
+	color: #17365D;
+}
+p.titlefront {
+	margin-top: 0in;
+	margin-right: 6.5pt;
+	margin-bottom: 3.0pt;
+	margin-left: 7.1pt;
+	text-align: center;
+	line-height: 115%;
+	font-size: 32.0pt;
+	font-family: Arial, sans-serif;
+	color: #087EA5;
+}
+p.skylinesoftwaresystems {
+	margin-top: 3.0pt;
+	margin-right: 0in;
+	margin-bottom: 3.0pt;
+	margin-left: 0in;
+	text-align: center;
+	line-height: 115%;
+	font-size: 16.0pt;
+	font-family: Arial, sans-serif;
+	color: #087EA5;
+}
+p.Bullet1 {
+	margin-right: 0in;
+	margin-right: 0in;
+	font-family: Ubuntu;
+	font-size: 12pt;
+	margin-top: 12pt;
+	margin-bottom: 12pt;
+	line-height: 150%;
+	text-indent: -0.17in;
+	margin-left: 0.2in;
+}
+p.bullet1CxSpFirst {
+	margin-top: 0in;
+	margin-right: 0in;
+	margin-bottom: 0in;
+	margin-left: .35in;
+	margin-bottom: .0001pt;
+	text-indent: -.25in;
+	line-height: 106%;
+	font-size: 12.0pt;
+	font-family: Calibri, sans-serif;
+	margin-top: 3.0pt;
+	margin-right: 0in;
+	margin-bottom: 0in;
+	margin-left: .5in;
+	margin-bottom: .0001pt;
+	text-indent: -.25in;
+	line-height: normal;
+	font-size: 12.0pt;
+	font-family: Calibri, sans-serif;
+}
+p.bullet1CxSpMiddle {
+	margin-top: 0in;
+	margin-right: 0in;
+	margin-bottom: 0in;
+	margin-left: .35in;
+	margin-bottom: .0001pt;
+	text-indent: -.25in;
+	line-height: 106%;
+	font-size: 12.0pt;
+	font-family: Calibri, sans-serif;
+	margin-top: 0in;
+	margin-right: 0in;
+	margin-bottom: 0in;
+	margin-left: .5in;
+	margin-bottom: .0001pt;
+	text-indent: -.25in;
+	line-height: normal;
+	font-size: 12.0pt;
+	font-family: Calibri, sans-serif;
+}
+p.bullet1CxSpLast {
+	margin-top: 0in;
+	margin-right: 0in;
+	margin-bottom: 8.0pt;
+	margin-left: .35in;
+	text-indent: -.25in;
+	line-height: 106%;
+	font-size: 12.0pt;
+	font-family: Calibri, sans-serif;
+	margin-top: 0in;
+	margin-right: 0in;
+	margin-bottom: 3.0pt;
+	margin-left: .5in;
+	text-indent: -.25in;
+	line-height: normal;
+	font-size: 12.0pt;
+	font-family: Calibri, sans-serif;
+}
+span.HTMLPreformatted {
+	font-family: Consolas;
+}
+span.Subtitle {
+	font-family: Cambria, serif;
+	color: #4F81BD;
+	letter-spacing: .75pt;
+	font-style: italic;
+}
+span.PlainText {
+	font-family: "Courier New";
+}
+span.NoSpacing {
+	font-family: Arial, sans-serif;
+}
+span.Listnormal {
+	font-family: Verdana, sans-serif;
+}
+p.Listnormal {
+	margin-top: 3.0pt;
+	margin-right: 0in;
+	margin-bottom: 0in;
+	margin-left: .5in;
+	margin-bottom: .0001pt;
+	text-indent: -.25in;
+	line-height: normal;
+	font-size: 10.0pt;
+	font-family: Verdana, sans-serif;
+}
+p.Codeexample {
+	margin-top: 4.0pt;
+	margin-right: 0in;
+	margin-bottom: 3.0pt;
+	margin-left: 0in;
+	line-height: 115%;
+	text-autospace: none;
+	font-size: 9.0pt;
+	font-family: Courier;
+	font-weight: bold;
+}
+p.propertytext {
+	margin-top: 3.0pt;
+	margin-right: 0in;
+	margin-bottom: 6.0pt;
+	margin-left: 0in;
+	line-height: 115%;
+	font-size: 10.0pt;
+	font-family: Arial, sans-serif;
+}
+p.Noteiconsecondlevel {
+	margin-top: 3.0pt;
+	margin-right: 0in;
+	margin-bottom: 3.0pt;
+	margin-left: 0in;
+	line-height: 115%;
+	font-size: 10.0pt;
+	font-family: Arial, sans-serif;
+}
+p.codePM {
+	margin-top: 3.0pt;
+	margin-right: 0in;
+	margin-bottom: 0in;
+	margin-left: 0in;
+	margin-bottom: .0001pt;
+	line-height: 115%;
+	background: #F2F2F2;
+	text-autospace: none;
+	font-size: 9.5pt;
+	font-family: "Courier New";
+	color: #ff0000;
+}
+p.tablebullet {
+	margin-top: 3.0pt;
+	margin-right: 0in;
+	margin-bottom: 3.0pt;
+	margin-left: 0in;
+	line-height: 115%;
+	font-size: 10.0pt;
+	font-family: Arial, sans-serif;
+}
+p.tablebulletCxSpFirst {
+	margin-top: 3.0pt;
+	margin-right: 0in;
+	margin-bottom: 0in;
+	margin-left: 0in;
+	margin-bottom: .0001pt;
+	line-height: 115%;
+	font-size: 10.0pt;
+	font-family: Arial, sans-serif;
+}
+p.tablebulletCxSpMiddle {
+	margin: 0in;
+	margin-bottom: .0001pt;
+	line-height: 115%;
+	font-size: 10.0pt;
+	font-family: Arial, sans-serif;
+}
+p.tablebulletCxSpLast {
+	margin-top: 0in;
+	margin-right: 0in;
+	margin-bottom: 3.0pt;
+	margin-left: 0in;
+	line-height: 115%;
+	font-size: 10.0pt;
+	font-family: Arial, sans-serif;
+}
+p.codesample {
+	margin-top: 3.0pt;
+	margin-right: 0in;
+	margin-bottom: 3.0pt;
+	margin-left: .25in;
+	line-height: 115%;
+	layout-grid-mode: char;
+	background: #F2F2F2;
+	font-size: 10.0pt;
+	font-family: "Courier New";
+	layout-grid-mode: line;
+	font-style: italic;
+}
+p.co {
+	margin: 0in;
+	margin-bottom: .0001pt;
+	line-height: normal;
+	text-autospace: none;
+	font-size: 9.5pt;
+	font-family: "Consolas,Calibri", serif;
+	color: #A31515;
+}
+p.tablewhitehead {
+	margin: 0in;
+	margin-bottom: .0001pt;
+	text-align: center;
+	line-height: normal;
+	font-size: 12.0pt;
+	font-family: Calibri, sans-serif;
+	color: #ffffff;
+	font-weight: bold;
+}
+p.exampleconsolas {
+	margin-top: 0in;
+	margin-right: 0in;
+	margin-bottom: 3.0pt;
+	margin-left: 0in;
+	line-height: normal;
+	background: #F2F2F2;
+	font-size: 9.5pt;
+	font-family: Consolas;
+}
+span.HTMLPreformattedChar1 {
+	font-family: "Courier New";
+}
+p.codestyle {
+	margin: 0in;
+	margin-bottom: .0001pt;
+	line-height: normal;
+	text-autospace: none;
+	font-size: 9.5pt;
+	font-family: "Consolas,Calibri", serif;
+	color: #A31515;
+}
+span.BodyTextIndent {
+	font-family: Arial, sans-serif;
+}
+span.BodyText2 {
+	font-family: "Courier New";
+	color: #993366;
+}
+span.BodyText3 {
+	font-family: "Courier New";
+	color: #333399;
+}
+span.BodyTextIndent2 {
+	font-family: Arial, sans-serif;
+}
+span.BodyTextIndent3 {
+	font-family: "Times New Roman", serif;
+}
+span.Quote {
+	font-family: "Times New Roman", serif;
+	color: #000000;
+	font-style: italic;
+}
+span.IntenseQuote {
+	font-family: "Times New Roman", serif;
+	color: #4F81BD;
+	font-weight: bold;
+	font-style: italic;
+}
+p.BodyText {
+	margin-top: 1.5pt;
+	margin-right: 0in;
+	margin-bottom: 3.0pt;
+	margin-left: 0in;
+	text-align: justify;
+	line-height: normal;
+	font-size: 12.0pt;
+	font-family: Calibri, sans-serif;
+}
+p.DenseText {
+	margin-top: 3.0pt;
+	margin-right: 0in;
+	margin-bottom: 3.0pt;
+	margin-left: 0in;
+	line-height: normal;
+	font-size: 12.0pt;
+	font-family: Calibri, sans-serif;
+}
+p.GroupHeader {
+	margin-top: 6.0pt;
+	margin-right: 0in;
+	margin-bottom: 3.0pt;
+	margin-left: .25in;
+	line-height: normal;
+	font-size: 12.0pt;
+	font-family: Arial, sans-serif;
+	font-weight: bold;
+}
+p.CodeExample0 {
+	margin-top: 3.0pt;
+	margin-right: 0in;
+	margin-bottom: 3.0pt;
+	margin-left: 0in;
+	line-height: normal;
+	background: #E5E5E5;
+	font-size: 8.0pt;
+	font-family: "Courier New";
+}
+p.CodeExample1 {
+	margin-top: 3.0pt;
+	margin-right: 0in;
+	margin-bottom: 3.0pt;
+	margin-left: .25in;
+	line-height: normal;
+	background: #E5E5E5;
+	font-size: 8.0pt;
+	font-family: "Courier New";
+}
+p.CodeExample2 {
+	margin-top: 3.0pt;
+	margin-right: 0in;
+	margin-bottom: 3.0pt;
+	margin-left: .5in;
+	line-height: normal;
+	background: #E5E5E5;
+	font-size: 8.0pt;
+	font-family: "Courier New";
+}
+p.CodeExample3 {
+	margin-top: 3.0pt;
+	margin-right: 0in;
+	margin-bottom: 3.0pt;
+	margin-left: .75in;
+	line-height: normal;
+	background: #E5E5E5;
+	font-size: 8.0pt;
+	font-family: "Courier New";
+}
+p.CodeExample4 {
+	margin-top: 3.0pt;
+	margin-right: 0in;
+	margin-bottom: 3.0pt;
+	margin-left: 1.0in;
+	line-height: normal;
+	background: #E5E5E5;
+	font-size: 8.0pt;
+	font-family: "Courier New";
+}
+p.CodeExample5 {
+	margin-top: 3.0pt;
+	margin-right: 0in;
+	margin-bottom: 3.0pt;
+	margin-left: 1.25in;
+	line-height: normal;
+	background: #E5E5E5;
+	font-size: 8.0pt;
+	font-family: "Courier New";
+}
+p.CodeExample6 {
+	margin-top: 3.0pt;
+	margin-right: 0in;
+	margin-bottom: 3.0pt;
+	margin-left: 1.5in;
+	line-height: normal;
+	background: #E5E5E5;
+	font-size: 8.0pt;
+	font-family: "Courier New";
+}
+p.CodeExample7 {
+	margin-top: 3.0pt;
+	margin-right: 0in;
+	margin-bottom: 3.0pt;
+	margin-left: 1.75in;
+	line-height: normal;
+	background: #E5E5E5;
+	font-size: 8.0pt;
+	font-family: "Courier New";
+}
+p.CodeExample8 {
+	margin-top: 3.0pt;
+	margin-right: 0in;
+	margin-bottom: 3.0pt;
+	margin-left: 2.0in;
+	line-height: normal;
+	background: #E5E5E5;
+	font-size: 8.0pt;
+	font-family: "Courier New";
+}
+p.CodeExample9 {
+	margin-top: 3.0pt;
+	margin-right: 0in;
+	margin-bottom: 3.0pt;
+	margin-left: 2.25in;
+	line-height: normal;
+	background: #E5E5E5;
+	font-size: 8.0pt;
+	font-family: "Courier New";
+}
+p.ListContinue0 {
+	margin-top: 1.5pt;
+	margin-right: 0in;
+	margin-bottom: 3.0pt;
+	margin-left: 0in;
+	text-align: justify;
+	line-height: normal;
+	font-size: 12.0pt;
+	font-family: Calibri, sans-serif;
+}
+p.ListContinue1 {
+	margin-top: 1.5pt;
+	margin-right: 0in;
+	margin-bottom: 3.0pt;
+	margin-left: .25in;
+	text-align: justify;
+	line-height: normal;
+	font-size: 12.0pt;
+	font-family: Calibri, sans-serif;
+}
+p.ListContinue6 {
+	margin-top: 1.5pt;
+	margin-right: 0in;
+	margin-bottom: 3.0pt;
+	margin-left: 1.5in;
+	text-align: justify;
+	line-height: normal;
+	font-size: 12.0pt;
+	font-family: Calibri, sans-serif;
+}
+p.ListContinue7 {
+	margin-top: 1.5pt;
+	margin-right: 0in;
+	margin-bottom: 3.0pt;
+	margin-left: 1.75in;
+	text-align: justify;
+	line-height: normal;
+	font-size: 12.0pt;
+	font-family: Calibri, sans-serif;
+}
+p.ListContinue8 {
+	margin-top: 1.5pt;
+	margin-right: 0in;
+	margin-bottom: 3.0pt;
+	margin-left: 2.0in;
+	text-align: justify;
+	line-height: normal;
+	font-size: 12.0pt;
+	font-family: Calibri, sans-serif;
+}
+p.ListContinue9 {
+	margin-top: 1.5pt;
+	margin-right: 0in;
+	margin-bottom: 3.0pt;
+	margin-left: 2.25in;
+	text-align: justify;
+	line-height: normal;
+	font-size: 12.0pt;
+	font-family: Calibri, sans-serif;
+}
+p.DescContinue0 {
+	margin-top: 3.0pt;
+	margin-right: 0in;
+	margin-bottom: 3.0pt;
+	margin-left: 0in;
+	line-height: normal;
+	font-size: 12.0pt;
+	font-family: Calibri, sans-serif;
+}
+p.DescContinue1 {
+	margin-top: 3.0pt;
+	margin-right: 0in;
+	margin-bottom: 3.0pt;
+	margin-left: .25in;
+	line-height: normal;
+	font-size: 12.0pt;
+	font-family: Calibri, sans-serif;
+}
+p.DescContinue2 {
+	margin-top: 3.0pt;
+	margin-right: 0in;
+	margin-bottom: 3.0pt;
+	margin-left: .5in;
+	line-height: normal;
+	font-size: 12.0pt;
+	font-family: Calibri, sans-serif;
+}
+p.DescContinue3 {
+	margin-top: 3.0pt;
+	margin-right: 0in;
+	margin-bottom: 3.0pt;
+	margin-left: .75in;
+	line-height: normal;
+	font-size: 12.0pt;
+	font-family: Calibri, sans-serif;
+}
+p.DescContinue4 {
+	margin-top: 3.0pt;
+	margin-right: 0in;
+	margin-bottom: 3.0pt;
+	margin-left: 1.0in;
+	line-height: normal;
+	font-size: 12.0pt;
+	font-family: Calibri, sans-serif;
+}
+p.DescContinue5 {
+	margin-top: 3.0pt;
+	margin-right: 0in;
+	margin-bottom: 3.0pt;
+	margin-left: 1.25in;
+	line-height: normal;
+	font-size: 12.0pt;
+	font-family: Calibri, sans-serif;
+}
+p.DescContinue6 {
+	margin-top: 3.0pt;
+	margin-right: 0in;
+	margin-bottom: 3.0pt;
+	margin-left: 1.5in;
+	line-height: normal;
+	font-size: 12.0pt;
+	font-family: Calibri, sans-serif;
+}
+p.DescContinue7 {
+	margin-top: 3.0pt;
+	margin-right: 0in;
+	margin-bottom: 3.0pt;
+	margin-left: 1.75in;
+	line-height: normal;
+	font-size: 12.0pt;
+	font-family: Calibri, sans-serif;
+}
+p.DescContinue8 {
+	margin-top: 3.0pt;
+	margin-right: 0in;
+	margin-bottom: 3.0pt;
+	margin-left: 2.0in;
+	line-height: normal;
+	font-size: 12.0pt;
+	font-family: Calibri, sans-serif;
+}
+p.DescContinue9 {
+	margin-top: 3.0pt;
+	margin-right: 0in;
+	margin-bottom: 3.0pt;
+	margin-left: 2.25in;
+	line-height: normal;
+	font-size: 12.0pt;
+	font-family: Calibri, sans-serif;
+}
+p.LatexTOC0 {
+	margin-top: 1.5pt;
+	margin-right: 0in;
+	margin-bottom: 1.5pt;
+	margin-left: 0in;
+	line-height: normal;
+	font-size: 12.0pt;
+	font-family: Calibri, sans-serif;
+}
+p.LatexTOC1 {
+	margin-top: 1.35pt;
+	margin-right: 0in;
+	margin-bottom: 1.35pt;
+	margin-left: .25in;
+	line-height: normal;
+	font-size: 12.0pt;
+	font-family: Calibri, sans-serif;
+}
+p.LatexTOC2 {
+	margin-top: 1.2pt;
+	margin-right: 0in;
+	margin-bottom: 1.2pt;
+	margin-left: .5in;
+	line-height: normal;
+	font-size: 12.0pt;
+	font-family: Calibri, sans-serif;
+}
+p.LatexTOC3 {
+	margin-top: 1.05pt;
+	margin-right: 0in;
+	margin-bottom: 1.05pt;
+	margin-left: .75in;
+	line-height: normal;
+	font-size: 12.0pt;
+	font-family: Calibri, sans-serif;
+}
+p.LatexTOC4 {
+	margin-top: .9pt;
+	margin-right: 0in;
+	margin-bottom: .9pt;
+	margin-left: 1.0in;
+	line-height: normal;
+	font-size: 12.0pt;
+	font-family: Calibri, sans-serif;
+}
+p.LatexTOC5 {
+	margin-top: .75pt;
+	margin-right: 0in;
+	margin-bottom: .75pt;
+	margin-left: 1.25in;
+	line-height: normal;
+	font-size: 12.0pt;
+	font-family: Calibri, sans-serif;
+}
+p.LatexTOC6 {
+	margin-top: .6pt;
+	margin-right: 0in;
+	margin-bottom: .6pt;
+	margin-left: 1.5in;
+	line-height: normal;
+	font-size: 12.0pt;
+	font-family: Calibri, sans-serif;
+}
+p.LatexTOC7 {
+	margin-top: .45pt;
+	margin-right: 0in;
+	margin-bottom: .45pt;
+	margin-left: 1.75in;
+	line-height: normal;
+	font-size: 12.0pt;
+	font-family: Calibri, sans-serif;
+}
+p.LatexTOC8 {
+	margin-top: .3pt;
+	margin-right: 0in;
+	margin-bottom: .3pt;
+	margin-left: 2.0in;
+	line-height: normal;
+	font-size: 12.0pt;
+	font-family: Calibri, sans-serif;
+}
+p.LatexTOC9 {
+	margin-top: .15pt;
+	margin-right: 0in;
+	margin-bottom: .15pt;
+	margin-left: 2.25in;
+	line-height: normal;
+	font-size: 12.0pt;
+	font-family: Calibri, sans-serif;
+}
+p.ListBullet0 {
+	margin-top: 3.0pt;
+	margin-right: 0in;
+	margin-bottom: 3.0pt;
+	margin-left: .5in;
+	text-indent: -.25in;
+	line-height: normal;
+	font-size: 12.0pt;
+	font-family: Calibri, sans-serif;
+}
+p.ListBullet1 {
+	margin-top: 3.0pt;
+	margin-right: 0in;
+	margin-bottom: 3.0pt;
+	margin-left: .75in;
+	text-indent: -.25in;
+	line-height: normal;
+	font-size: 12.0pt;
+	font-family: Calibri, sans-serif;
+}
+p.ListBullet6 {
+	margin-top: 3.0pt;
+	margin-right: 0in;
+	margin-bottom: 3.0pt;
+	margin-left: .25in;
+	text-indent: -.25in;
+	line-height: normal;
+	font-size: 12.0pt;
+	font-family: Calibri, sans-serif;
+}
+p.ListBullet7 {
+	margin-top: 3.0pt;
+	margin-right: 0in;
+	margin-bottom: 3.0pt;
+	margin-left: 2.0in;
+	text-indent: -.25in;
+	line-height: normal;
+	font-size: 12.0pt;
+	font-family: Calibri, sans-serif;
+}
+p.ListBullet8 {
+	margin-top: 3.0pt;
+	margin-right: 0in;
+	margin-bottom: 3.0pt;
+	margin-left: 2.25in;
+	text-indent: -.25in;
+	line-height: normal;
+	font-size: 12.0pt;
+	font-family: Calibri, sans-serif;
+}
+p.ListBullet9 {
+	margin-top: 3.0pt;
+	margin-right: 0in;
+	margin-bottom: 3.0pt;
+	margin-left: 2.5in;
+	text-indent: -.25in;
+	line-height: normal;
+	font-size: 12.0pt;
+	font-family: Calibri, sans-serif;
+}
+p.ListEnum0 {
+	margin-top: 3.0pt;
+	margin-right: 0in;
+	margin-bottom: 3.0pt;
+	margin-left: .25in;
+	text-indent: -.25in;
+	line-height: normal;
+	font-size: 12.0pt;
+	font-family: Calibri, sans-serif;
+}
+p.ListEnum1 {
+	margin-top: 3.0pt;
+	margin-right: 0in;
+	margin-bottom: 3.0pt;
+	margin-left: .5in;
+	text-indent: -.25in;
+	line-height: normal;
+	font-size: 12.0pt;
+	font-family: Calibri, sans-serif;
+}
+p.ListEnum2 {
+	margin-top: 3.0pt;
+	margin-right: 0in;
+	margin-bottom: 3.0pt;
+	margin-left: .75in;
+	text-indent: -.25in;
+	line-height: normal;
+	font-size: 12.0pt;
+	font-family: Calibri, sans-serif;
+}
+p.ListEnum3 {
+	margin-top: 3.0pt;
+	margin-right: 0in;
+	margin-bottom: 3.0pt;
+	margin-left: 1.0in;
+	text-indent: -.25in;
+	line-height: normal;
+	font-size: 12.0pt;
+	font-family: Calibri, sans-serif;
+}
+p.ListEnum4 {
+	margin-top: 3.0pt;
+	margin-right: 0in;
+	margin-bottom: 3.0pt;
+	margin-left: 1.25in;
+	text-indent: -.25in;
+	line-height: normal;
+	font-size: 12.0pt;
+	font-family: Calibri, sans-serif;
+}
+p.ListEnum5 {
+	margin-top: 3.0pt;
+	margin-right: 0in;
+	margin-bottom: 3.0pt;
+	margin-left: 1.5in;
+	text-indent: -.25in;
+	line-height: normal;
+	font-size: 12.0pt;
+	font-family: Calibri, sans-serif;
+}
+p.ListEnum51 {
+	margin-top: 3.0pt;
+	margin-right: 0in;
+	margin-bottom: 3.0pt;
+	margin-left: 1.75in;
+	text-indent: -.25in;
+	line-height: normal;
+	font-size: 12.0pt;
+	font-family: Calibri, sans-serif;
+}
+p.ListEnum7 {
+	margin-top: 3.0pt;
+	margin-right: 0in;
+	margin-bottom: 3.0pt;
+	margin-left: 2.0in;
+	text-indent: -.25in;
+	line-height: normal;
+	font-size: 12.0pt;
+	font-family: Calibri, sans-serif;
+}
+p.ListEnum8 {
+	margin-top: 3.0pt;
+	margin-right: 0in;
+	margin-bottom: 3.0pt;
+	margin-left: 2.25in;
+	text-indent: -.25in;
+	line-height: normal;
+	font-size: 12.0pt;
+	font-family: Calibri, sans-serif;
+}
+p.ListEnum9 {
+	margin-top: 3.0pt;
+	margin-right: 0in;
+	margin-bottom: 3.0pt;
+	margin-left: 2.5in;
+	text-indent: -.25in;
+	line-height: normal;
+	font-size: 12.0pt;
+	font-family: Calibri, sans-serif;
+}
+p.Definition {
+	margin-top: 6.0pt;
+	margin-right: 0in;
+	margin-bottom: 6.0pt;
+	margin-left: 0in;
+	line-height: normal;
+	font-size: 12.0pt;
+	font-family: Calibri, sans-serif;
+}
+span.Remark {
+	font-weight: bold;
+}
+p.Remark {
+	margin-top: 6.0pt;
+	margin-right: 0in;
+	margin-bottom: 0in;
+	margin-left: 0in;
+	margin-bottom: .0001pt;
+	line-height: normal;
+	font-size: 12.0pt;
+	font-family: Calibri, sans-serif;
+	font-weight: bold;
+}
+p.MaHTML {
+	margin-top: 6.0pt;
+	margin-right: 0in;
+	margin-bottom: 6.0pt;
+	margin-left: 0in;
+	line-height: 150%;
+	background: #F3F4F7;
+	font-size: 9.0pt;
+	font-family: "Courier New";
+	color: #002060;
+	font-weight: bold;
+}
+p.SourceCode {
+	margin-top: 6.0pt;
+	margin-right: 0in;
+	margin-bottom: 6.0pt;
+	margin-left: 0in;
+	line-height: normal;
+	background: #F3F4F7;
+	font-size: 9.0pt;
+	font-family: "Courier New";
+	color: #002060;
+	font-weight: bold;
+}
+p.SourceCodeCxSpFirst {
+	margin-top: 6.0pt;
+	margin-right: 0in;
+	margin-bottom: 0in;
+	margin-left: 0in;
+	margin-bottom: .0001pt;
+	line-height: normal;
+	background: #F3F4F7;
+	font-size: 9.0pt;
+	font-family: "Courier New";
+	color: #002060;
+	font-weight: bold;
+}
+p.SourceCodeCxSpMiddle {
+	margin: 0in;
+	margin-bottom: .0001pt;
+	line-height: normal;
+	background: #F3F4F7;
+	font-size: 9.0pt;
+	font-family: "Courier New";
+	color: #002060;
+	font-weight: bold;
+}
+p.SourceCodeCxSpLast {
+	margin-top: 0in;
+	margin-right: 0in;
+	margin-bottom: 6.0pt;
+	margin-left: 0in;
+	line-height: normal;
+	background: #F3F4F7;
+	font-size: 9.0pt;
+	font-family: "Courier New";
+	color: #002060;
+	font-weight: bold;
+}
+p.Bulletsmall {
+	margin-top: 1.0pt;
+	margin-right: 0in;
+	margin-bottom: 3.0pt;
+	margin-left: .25in;
+	text-indent: -.25in;
+	line-height: normal;
+	layout-grid-mode: char;
+	font-size: 12.0pt;
+	font-family: Calibri, sans-serif;
+	margin-right: 0in;
+	margin-left: 0in;
+	line-height: normal;
+	font-size: 12.0pt;
+	font-family: "Times New Roman", serif;
+}
+p.NormalB {
+	margin-top: 6.0pt;
+	margin-right: 0in;
+	margin-bottom: 3.0pt;
+	margin-left: 0in;
+	line-height: normal;
+	font-size: 12.0pt;
+	font-family: Calibri, sans-serif;
+	letter-spacing: -.2pt;
+}
+p.Bullet2 {
+	margin-top: 12.0pt;
+	margin-right: 0in;
+	margin-bottom: 12.0pt;
+	line-height: 150%;
+	layout-grid-mode: char;
+	
+	
+	font-family: Ubuntu;
+	font-size: 12pt;
+	text-indent: -0.17in;
+	margin-left: 0.42in;
+}
+span.Bullet {
+	font-family: "Times New Roman", serif;
+}
+p.H2_RH {
+	margin-top: 5.0pt;
+	margin-right: 0in;
+	margin-bottom: 5.0pt;
+	margin-left: 0in;
+	text-align: justify;
+	line-height: normal;
+	layout-grid-mode: char;
+	font-size: 13.0pt;
+	font-family: "Times New Roman", serif;
+	color: #ff00ff;
+	font-weight: bold;
+}
+
+p.Number {
+	margin-top: 8.0pt;
+	margin-right: 0in;
+	margin-bottom: 5.0pt;
+	margin-left: 0in;
+	line-height: normal;
+	font-size: 12.0pt;
+	font-family: Calibri, sans-serif;
+}
+p.Instruction {
+	margin-top: 6.0pt;
+	margin-right: 0in;
+	margin-bottom: 6.0pt;
+	margin-left: 31.65pt;
+	text-indent: -22.3pt;
+	line-height: normal;
+	font-size: 9.0pt;
+	font-family: Arial, sans-serif;
+}
+p.Head2 {
+	margin-top: 3.0pt;
+	margin-right: 0in;
+	margin-bottom: 0in;
+	margin-left: 0in;
+	margin-bottom: .0001pt;
+	line-height: normal;
+	font-size: 10.0pt;
+	font-family: Arial, sans-serif;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+p.normalsb {
+	margin-top: 3.0pt;
+	margin-right: 0in;
+	margin-bottom: 0in;
+	margin-left: 0in;
+	margin-bottom: .0001pt;
+	line-height: normal;
+	font-size: 12.0pt;
+	font-family: "Times New Roman", serif;
+	color: #FF9900;
+	font-weight: bold;
+}
+p.H {
+	margin-top: 3.0pt;
+	margin-right: 0in;
+	margin-bottom: 0in;
+	margin-left: 0in;
+	margin-bottom: .0001pt;
+	line-height: normal;
+	font-size: 10.0pt;
+	font-family: "Times New Roman", serif;
+}
+p.bulletsmall_RH {
+	margin-top: 1.0pt;
+	margin-right: 0in;
+	margin-bottom: 0in;
+	margin-left: .25in;
+	margin-bottom: .0001pt;
+	text-indent: -.25in;
+	line-height: normal;
+	layout-grid-mode: char;
+	font-size: 10.0pt;
+	font-family: "Times New Roman", serif;
+	color: #ff0000;
+}
+p.Normaln {
+	margin-top: 3.0pt;
+	margin-right: 0in;
+	margin-bottom: 0in;
+	margin-left: 0in;
+	margin-bottom: .0001pt;
+	line-height: normal;
+	font-size: 10.0pt;
+	font-family: "Times New Roman", serif;
+}
+p.normals {
+	margin-top: 3.0pt;
+	margin-right: 0in;
+	margin-bottom: 0in;
+	margin-left: 0in;
+	margin-bottom: .0001pt;
+	line-height: normal;
+	font-size: 12.0pt;
+	font-family: "Times New Roman", serif;
+	color: #FF9900;
+	font-weight: bold;
+}
+p.indent {
+	margin-right: 0in;
+	margin-left: 0in;
+	line-height: normal;
+	font-size: 12.0pt;
+	font-family: "Times New Roman", serif;
+}
+
+p.tablerow {
+	margin-top: 36.0pt;
+	margin-right: 0in;
+	margin-bottom: 6.0pt;
+	margin-left: 0in;
+	line-height: normal;
+	font-size: 10.0pt;
+	font-family: "Times New Roman", serif;
+}
+p.Normal1 {
+	margin-right: 0in;
+	margin-left: 0in;
+	line-height: normal;
+	font-size: 12.0pt;
+	font-family: "Times New Roman", serif;
+}
+span.Malink {
+	font-family: "Times New Roman", serif;
+	color: #0033CC;
+	text-underline: single;
+	text-decoration: underline;
+}
+p.Malink {
+	margin-top: 3.0pt;
+	margin-right: 0in;
+	margin-bottom: 0in;
+	margin-left: 0in;
+	margin-bottom: .0001pt;
+	line-height: normal;
+	font-size: 12.0pt;
+	font-family: "Times New Roman", serif;
+	color: #0033CC;
+	text-underline: single;
+	text-decoration: underline;
+}
+p.Style1 {
+	margin-top: 12.0pt;
+	margin-right: 0in;
+	margin-bottom: 12.0pt;
+	margin-left: 0in;
+	line-height: normal;
+	font-size: 10.0pt;
+	font-family: "Times New Roman", serif;
+	font-weight: bold;
+}
+p.TableHeading {
+	margin-top: 6.0pt;
+	margin-right: 0in;
+	margin-bottom: 6.0pt;
+	margin-left: 0in;
+	line-height: normal;
+	font-size: 10.0pt;
+	font-family: "Times New Roman", serif;
+}
+p.CodeSubsequentLines {
+	margin-top: 3.0pt;
+	margin-right: 0in;
+	margin-bottom: 3.0pt;
+	margin-left: 1.0in;
+	text-indent: .5in;
+	line-height: normal;
+	font-size: 12.0pt;
+	font-family: Calibri, sans-serif;
+	font-style: italic;
+}
+p.CodeFirstLine {
+	margin-top: 3.0pt;
+	margin-right: 0in;
+	margin-bottom: 3.0pt;
+	margin-left: 0in;
+	line-height: normal;
+	font-size: 12.0pt;
+	font-family: Calibri, sans-serif;
+	font-style: italic;
+}
+p.ParameterName {
+	margin-top: 0in;
+	margin-right: 0in;
+	margin-bottom: 3.0pt;
+	margin-left: 0in;
+	line-height: 115%;
+	font-size: 12.0pt;
+	font-family: Calibri, sans-serif;
+	font-weight: bold;
+}
+p.Parameter {
+	margin-top: 3.0pt;
+	margin-right: 0in;
+	margin-bottom: 3.0pt;
+	margin-left: .25in;
+	line-height: normal;
+	layout-grid-mode: char;
+	font-size: 12.0pt;
+	font-family: Calibri, sans-serif;
+}
+p.codeSG {
+	margin-top: 2.0pt;
+	margin-right: 0in;
+	margin-bottom: 0in;
+	margin-left: 0in;
+	margin-bottom: .0001pt;
+	line-height: normal;
+	font-size: 10.0pt;
+	font-family: "Courier New";
+}
+span.couriernewten {
+	font-family: "Courier New";
+}
+p.couriernewten {
+	margin: 0in;
+	margin-bottom: .0001pt;
+	line-height: normal;
+	font-size: 9.0pt;
+	font-family: "Courier New";
+}
+p.codetab {
+	margin: 0in;
+	margin-bottom: .0001pt;
+	line-height: normal;
+	font-size: 9.0pt;
+	font-family: Calibri, sans-serif;
+	font-weight: bold;
+}
+
+p.indentunderbullet {
+	margin-top: 0in;
+	margin-right: 0in;
+	margin-bottom: 10.0pt;
+	margin-left: .5in;
+	line-height: 115%;
+	font-size: 12.0pt;
+	font-family: Calibri, sans-serif;
+}
+p.bullet1forprog {
+	margin-top: 0in;
+	margin-right: 0in;
+	margin-bottom: 0in;
+	margin-left: .35in;
+	margin-bottom: .0001pt;
+	line-height: normal;
+	layout-grid-mode: char;
+	font-size: 12.0pt;
+	font-family: Calibri, sans-serif;
+}
+p.bullet2forprog {
+	margin-top: 0in;
+	margin-right: 0in;
+	margin-bottom: 0in;
+	margin-left: .5in;
+	margin-bottom: .0001pt;
+	text-indent: -.15in;
+	line-height: normal;
+	font-size: 12.0pt;
+	font-family: Calibri, sans-serif;
+}
+p.heading3 {
+	margin-top: 6.0pt;
+	margin-right: 0in;
+	margin-bottom: 3.0pt;
+	margin-left: 0in;
+	line-height: normal;
+	font-size: 10.5pt;
+	font-family: Verdana, sans-serif;
+	font-weight: bold;
+}
+span.ioscodepurple {
+	font-family: "Courier New";
+	color: #5C2699;
+}
+p.ioscodepurple {
+	margin-top: 3.0pt;
+	margin-right: 0in;
+	margin-bottom: 3.0pt;
+	margin-left: 0in;
+	line-height: normal;
+	font-size: 9.0pt;
+	font-family: "Courier New";
+	color: #5C2699;
+}
+span.ioscodeblack {
+	font-family: "Courier New";
+	color: #000000;
+}
+p.ioscodeblack {
+	margin-top: 3.0pt;
+	margin-right: 0in;
+	margin-bottom: 3.0pt;
+	margin-left: 0in;
+	line-height: normal;
+	font-size: 9.0pt;
+	font-family: "Courier New";
+	color: #000000;
+}
+span.ioscodepink {
+	font-family: "Courier New";
+	color: #AA0D91;
+}
+p.ioscodepink {
+	margin-top: 3.0pt;
+	margin-right: 0in;
+	margin-bottom: 3.0pt;
+	margin-left: 0in;
+	line-height: normal;
+	font-size: 9.0pt;
+	font-family: "Courier New";
+	color: #AA0D91;
+}
+span.ioscodered {
+	font-family: "Courier New";
+	color: #D12F1B;
+}
+p.ioscodered {
+	margin: 0in;
+	margin-bottom: .0001pt;
+	line-height: normal;
+	font-size: 9.0pt;
+	font-family: "Courier New";
+	color: #D12F1B;
+}
+span.ioscodebrown {
+	font-family: "Courier New";
+	color: #78492A;
+}
+p.ioscodebrown {
+	margin: 0in;
+	margin-bottom: .0001pt;
+	line-height: normal;
+	font-size: 9.0pt;
+	font-family: "Courier New";
+	color: #78492A;
+}
+span.ioscodebluepurple {
+	font-family: "Courier New";
+	color: #3D1D81;
+}
+p.ioscodebluepurple {
+	margin: 0in;
+	margin-bottom: .0001pt;
+	line-height: normal;
+	font-size: 9.0pt;
+	font-family: "Courier New";
+	color: #3D1D81;
+}
+span.iosdarkaqua {
+	font-family: "Courier New";
+	color: #31595D;
+}
+p.iosdarkaqua {
+	margin: 0in;
+	margin-bottom: .0001pt;
+	line-height: normal;
+	font-size: 9.0pt;
+	font-family: "Courier New";
+	color: #31595D;
+}
+p.abstract {
+	margin-right: 0in;
+	margin-left: 0in;
+	line-height: normal;
+	font-size: 12.0pt;
+	font-family: "Times New Roman", serif;
+}
+p.consolascode {
+	margin-top: 3.0pt;
+	margin-right: 0in;
+	margin-bottom: 3.0pt;
+	margin-left: 0in;
+	line-height: normal;
+	background: #F2F2F2;
+	font-size: 10.0pt;
+	font-family: Consolas;
+	color: #000000;
+	font-style: italic;
+}
+span.Hypernew {
+	font-family: "Times New Roman", serif;
+	color: #0000ff;
+	text-underline: blue;
+	text-underline: single;
+	text-decoration: underline;
+}
+span.Strongnew {
+	font-weight: bold;
+}
+span.s91 {
+	font-family: Verdana, sans-serif;
+	font-variant: normal	 ! important ;
+	color: #131348;
+	text-transform: none;
+	letter-spacing: 12.0pt;
+	font-weight: normal;
+	font-style: normal;
+	text-underline: none;
+	text-line-through: none;
+	text-decoration: none;
+}
+span.s8bred1 {
+	font-family: Arial, sans-serif;
+	font-variant: normal	 ! important ;
+	color: #B90000;
+	text-transform: none;
+	letter-spacing: 12.0pt;
+	font-weight: bold;
+	font-style: normal;
+	text-underline: none;
+	text-line-through: none;
+	text-decoration: none;
+}
+span.s10b1 {
+	font-family: Verdana, sans-serif;
+	color: #000000;
+	font-weight: bold;
+	font-style: normal;
+	text-underline: none;
+	text-line-through: none;
+	text-decoration: none;
+}
+span.s81 {
+	font-family: Arial, sans-serif;
+	font-variant: normal	 ! important ;
+	color: #000000;
+	text-transform: none;
+	letter-spacing: 12.0pt;
+	font-weight: normal;
+	font-style: normal;
+	text-underline: none;
+	text-line-through: none;
+	text-decoration: none;
+}
+span.Tobelinked {
+	font-family: "Times New Roman", serif;
+	color: #008000;
+}
+span.CodeSG {
+	font-family: "Courier New";
+}
+span.Heading2Char1 {
+	font-family: Cambria, serif;
+	color: #4F81BD;
+	font-weight: bold;
+}
+span.ioscode {
+	font-family: Menlo-Regular;
+	color: #AA0D91;
+}
+span.isocodered {
+	font-family: "Courier New";
+}
+span.iscodeaqua {
+	color: #4F8187;
+}
+span.isocodepink {
+	font-family: "Courier New";
+	color: #AA0D91;
+}
+span.isocodepurple {
+	font-family: "Courier New";
+	color: #5C2699;
+}
+span.androidpurple {
+	color: #7F0055;
+	font-weight: bold;
+}
+p.m2508052934289295348msolistparagraph {
+	margin-right: 0in;
+	margin-left: 0in;
+	line-height: normal;
+	font-size: 12.0pt;
+	font-family: "Times New Roman", serif;
+}
+span.UnresolvedMention1 {
+	color: #808080;
+	background: #E6E6E6;
+}
+span.UnresolvedMention2 {
+	color: #808080;
+	background: #E6E6E6;
+}
+p.tabunderbullet {
+	margin-top: 7.5pt;
+	margin-right: 0in;
+	margin-bottom: 12pt;
+	margin-left: .25in;
+	line-height: 115%;
+	font-size: 12.0pt;
+	font-family: Ubuntu, sans-serif;
+}
+p.code2 {
+	margin-top: 6.0pt;
+	margin-right: 0in;
+	margin-bottom: 6.0pt;
+	margin-left: .5in;
+	line-height: 115%;
+	background: #F2F2F2;
+	border: none;
+	padding: 0in;
+	font-size: 12.0pt;
+	font-family: Menlo, serif;
+	color: #4D4D4C;
+}
+p.jsdoccode {
+	margin-top: 6.0pt;
+	margin-right: 0in;
+	margin-bottom: 6.0pt;
+	margin-left: .5in;
+	line-height: 115%;
+	background: #F2F2F2;
+	border: none;
+	padding: 0in;
+	font-size: 12.0pt;
+	font-family: Menlo, serif;
+	color: #4D4D4C;
+}
+span.code2 {
+	font-family: Menlo, serif;
+	color: #4D4D4C;
+	background: #F2F2F2;
+}
+span.UnresolvedMention3 {
+	color: #808080;
+	background: #E6E6E6;
+}
+OL {
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+UL {
+	margin-top: 0px;
+	margin-bottom: 0px;
+}

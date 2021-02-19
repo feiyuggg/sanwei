@@ -1,0 +1,1 @@
+rh._.exports({"0":["Logging Out"],"1":["\n","\n","To log out:","\n","1.","    "," ","On the top of the sidebar, click your username link. The SkylineGlobe – My Account dialog box is displayed.","\n","2.","    "," ","Click ","Log out",".","\n\n\n"],"3":["Logging,Logging:Out"],"4":["Logging Out"],"id":"40"})

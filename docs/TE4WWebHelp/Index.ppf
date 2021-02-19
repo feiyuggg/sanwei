@@ -1,0 +1,742 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ppfml version="2.00" project="TE4W UG" type="4">
+  <contextmap>
+    
+  </contextmap>
+  <topiclist defaulttopic="About_TerraExplorer_for_Web_TE4W.htm">
+    
+    <topic>
+      About_this_Manual.htm
+    </topic>
+    
+    <topic>
+      About_TerraExplorer_for_Web_TE4W.htm
+    </topic>
+    
+    <topic>
+      Product_Capabilities.htm
+    </topic>
+    
+    <topic>
+      SkylineGlobe_Software_Suite.htm
+    </topic>
+    
+    <topic>
+      Editors.htm
+    </topic>
+    
+    <topic>
+      TerraBuilder.htm
+    </topic>
+    
+    <topic>
+      PhotoMesh.htm
+    </topic>
+    
+    <topic>
+      TerraExplorer_Pro.htm
+    </topic>
+    
+    <topic>
+      Cloud_Services.htm
+    </topic>
+    
+    <topic>
+      SkylineGlobe_Terrain_Service.htm
+    </topic>
+    
+    <topic>
+      SkylineGlobe_Feature_Service.htm
+    </topic>
+    
+    <topic>
+      SkylineGlobe_Maps_Service.htm
+    </topic>
+    
+    <topic>
+      SkylineGlobe_3D_Mesh_Service.htm
+    </topic>
+    
+    <topic>
+      SkylineGlobe_Point_Cloud_Service.htm
+    </topic>
+    
+    <topic>
+      Clients.htm
+    </topic>
+    
+    <topic>
+      TerraExplorer_Desktop.htm
+    </topic>
+    
+    <topic>
+      TerraExplorer_for_Mobile.htm
+    </topic>
+    
+    <topic>
+      TerraExplorer_for_Web.htm
+    </topic>
+    
+    <topic>
+      Integration_of_CAD_BIM_Models_into_Existing_3DML.htm
+    </topic>
+    
+    <topic>
+      Improved_Support_for_BIM_CAD_Models.htm
+    </topic>
+    
+    <topic>
+      Expanded_Support_for_On-Terrain_Drawing_Mode.htm
+    </topic>
+    
+    <topic>
+      Support_for_On-Model_Drawing_Mode.htm
+    </topic>
+    
+    <topic>
+      Performance_Improvements.htm
+    </topic>
+    
+    <topic>
+      MapBox_Imagery_Provider.htm
+    </topic>
+    
+    <topic>
+      Mobile-Friendly.htm
+    </topic>
+    
+    <topic>
+      Support_for_Message_Popup.htm
+    </topic>
+    
+    <topic>
+      Full_Customization_of_TerraExplorer_for_Web.htm
+    </topic>
+    
+    <topic>
+      Bug_Fixes_and_Stability.htm
+    </topic>
+    
+    <topic>
+      Support_for_3D_Mesh_Layers’_Ground_Surface.htm
+    </topic>
+    
+    <topic>
+      Support_for_On-Terrain_Objects.htm
+    </topic>
+    
+    <topic>
+      Performance_Improvements1.htm
+    </topic>
+    
+    <topic>
+      Volume_Analysis.htm
+    </topic>
+    
+    <topic>
+      Measurement_Tool_Improvements.htm
+    </topic>
+    
+    <topic>
+      Save_Measurement_and_Analysis_Objects.htm
+    </topic>
+    
+    <topic>
+      Video_on_Terrain_Object.htm
+    </topic>
+    
+    <topic>
+      Modify_Terrain_Object.htm
+    </topic>
+    
+    <topic>
+      Hole_on_Terrain_Object.htm
+    </topic>
+    
+    <topic>
+      Enhanced_Rendering_Effects.htm
+    </topic>
+    
+    <topic>
+      New_and_Improved_GUI.htm
+    </topic>
+    
+    <topic>
+      API.htm
+    </topic>
+    
+    <topic>
+      Startup_Script.htm
+    </topic>
+    
+    <topic>
+      Server_and_Browser_Requirements.htm
+    </topic>
+    
+    <topic>
+      Opening_TerraExplorer_for_Web.htm
+    </topic>
+    
+    <topic>
+      Opening_a_Project_from_SkylineGlobe_Server_SGS.htm
+    </topic>
+    
+    <topic>
+      TE4W_Sidebar_Tabs.htm
+    </topic>
+    
+    <topic>
+      Logging_In.htm
+    </topic>
+    
+    <topic>
+      Logging_Out.htm
+    </topic>
+    
+    <topic>
+      Changing_Your_Password.htm
+    </topic>
+    
+    <topic>
+      URL_Parameters.htm
+    </topic>
+    
+    <topic>
+      About_Navigating.htm
+    </topic>
+    
+    <topic>
+      Navigating_Using_the_Mouse.htm
+    </topic>
+    
+    <topic>
+      Navigating_Using_the_HUD_Navigation_Controls.htm
+    </topic>
+    
+    <topic>
+      Navigating_Using_the_Keyboard.htm
+    </topic>
+    
+    <topic>
+      More_Navigation_Options_Underground_and_Rotate.htm
+    </topic>
+    
+    <topic>
+      Search.htm
+    </topic>
+    
+    <topic>
+      Setting_the_Navigation_Mode.htm
+    </topic>
+    
+    <topic>
+      Flying_to_a_Favorite_Location.htm
+    </topic>
+    
+    <topic>
+      Adding_a_Favorite_Location.htm
+    </topic>
+    
+    <topic>
+      Editing_or_Deleting_a_Favorite_Location.htm
+    </topic>
+    
+    <topic>
+      Presentations.htm
+    </topic>
+    
+    <topic>
+      About_Measurement_and_Analysis.htm
+    </topic>
+    
+    <topic>
+      Distance_and_Slope_Tool.htm
+    </topic>
+    
+    <topic>
+      Area_and_3D_Plane_Tool.htm
+    </topic>
+    
+    <topic>
+      Volume_Tool.htm
+    </topic>
+    
+    <topic>
+      Information_Query.htm
+    </topic>
+    
+    <topic>
+      Terrain_Profile.htm
+    </topic>
+    
+    <topic>
+      Contour_Map.htm
+    </topic>
+    
+    <topic>
+      Slope_Map.htm
+    </topic>
+    
+    <topic>
+      Viewshed.htm
+    </topic>
+    
+    <topic>
+      Saving_and_Displaying_Measurement_Volume_and_Analysis_Objects.htm
+    </topic>
+    
+    <topic>
+      Editing_and_Deleting_Measurement_and_Analysis_Objects.htm
+    </topic>
+    
+    <topic>
+      Selecting_Layers_for_Display.htm
+    </topic>
+    
+    <topic>
+      Working_with_Feature_Layers.htm
+    </topic>
+    
+    <topic>
+      Editing_Feature_Layer_Properties.htm
+    </topic>
+    
+    <topic>
+      Viewing_and_Editing_Feature_Attribute_Information.htm
+    </topic>
+    
+    <topic>
+      Searching_by_Attribute.htm
+    </topic>
+    
+    <topic>
+      Selecting_a_Layer_Feature_and_Displaying_its_Attribute_Information.htm
+    </topic>
+    
+    <topic>
+      Refreshing_a_Layer.htm
+    </topic>
+    
+    <topic>
+      Deleting_a_Layer.htm
+    </topic>
+    
+    <topic>
+      Flying_to_a_Layer.htm
+    </topic>
+    
+    <topic>
+      Loading_Layers_from_SkylineGlobe_Server.htm
+    </topic>
+    
+    <topic>
+      Searching_for_SkylineGlobe_Layers.htm
+    </topic>
+    
+    <topic>
+      Chapter_7_Setting_the_Display_of_the_3D_Window.htm
+    </topic>
+    
+    <topic>
+      Navigation_Controls.htm
+    </topic>
+    
+    <topic>
+      Center_Sign.htm
+    </topic>
+    
+    <topic>
+      Units.htm
+    </topic>
+    
+    <topic>
+      MGRS_Coordinates.htm
+    </topic>
+    
+    <topic>
+      Date_and_Time.htm
+    </topic>
+    
+    <topic>
+      Color_Adjustment.htm
+    </topic>
+    
+    <topic>
+      Shadow.htm
+    </topic>
+    
+    <topic>
+      About_this_Manual.htm
+    </topic>
+    
+    <topic>
+      About_TerraExplorer_for_Web_TE4W.htm
+    </topic>
+    
+    <topic>
+      Product_Capabilities.htm
+    </topic>
+    
+    <topic>
+      SkylineGlobe_Software_Suite.htm
+    </topic>
+    
+    <topic>
+      Editors.htm
+    </topic>
+    
+    <topic>
+      TerraBuilder.htm
+    </topic>
+    
+    <topic>
+      PhotoMesh.htm
+    </topic>
+    
+    <topic>
+      TerraExplorer_Pro.htm
+    </topic>
+    
+    <topic>
+      Cloud_Services.htm
+    </topic>
+    
+    <topic>
+      SkylineGlobe_Terrain_Service.htm
+    </topic>
+    
+    <topic>
+      SkylineGlobe_Feature_Service.htm
+    </topic>
+    
+    <topic>
+      SkylineGlobe_Maps_Service.htm
+    </topic>
+    
+    <topic>
+      SkylineGlobe_3D_Mesh_Service.htm
+    </topic>
+    
+    <topic>
+      SkylineGlobe_Point_Cloud_Service.htm
+    </topic>
+    
+    <topic>
+      Clients.htm
+    </topic>
+    
+    <topic>
+      TerraExplorer_Desktop.htm
+    </topic>
+    
+    <topic>
+      TerraExplorer_for_Mobile.htm
+    </topic>
+    
+    <topic>
+      TerraExplorer_for_Web.htm
+    </topic>
+    
+    <topic>
+      Integration_of_CAD_BIM_Models_into_Existing_3DML.htm
+    </topic>
+    
+    <topic>
+      Improved_Support_for_BIM_CAD_Models.htm
+    </topic>
+    
+    <topic>
+      Expanded_Support_for_On-Terrain_Drawing_Mode.htm
+    </topic>
+    
+    <topic>
+      Support_for_On-Model_Drawing_Mode.htm
+    </topic>
+    
+    <topic>
+      Performance_Improvements.htm
+    </topic>
+    
+    <topic>
+      MapBox_Imagery_Provider.htm
+    </topic>
+    
+    <topic>
+      Mobile-Friendly.htm
+    </topic>
+    
+    <topic>
+      Support_for_Message_Popup.htm
+    </topic>
+    
+    <topic>
+      Full_Customization_of_TerraExplorer_for_Web.htm
+    </topic>
+    
+    <topic>
+      Bug_Fixes_and_Stability.htm
+    </topic>
+    
+    <topic>
+      Support_for_3D_Mesh_Layers’_Ground_Surface.htm
+    </topic>
+    
+    <topic>
+      Support_for_On-Terrain_Objects.htm
+    </topic>
+    
+    <topic>
+      Performance_Improvements1.htm
+    </topic>
+    
+    <topic>
+      Volume_Analysis.htm
+    </topic>
+    
+    <topic>
+      Measurement_Tool_Improvements.htm
+    </topic>
+    
+    <topic>
+      Save_Measurement_and_Analysis_Objects.htm
+    </topic>
+    
+    <topic>
+      Video_on_Terrain_Object.htm
+    </topic>
+    
+    <topic>
+      Modify_Terrain_Object.htm
+    </topic>
+    
+    <topic>
+      Hole_on_Terrain_Object.htm
+    </topic>
+    
+    <topic>
+      Enhanced_Rendering_Effects.htm
+    </topic>
+    
+    <topic>
+      New_and_Improved_GUI.htm
+    </topic>
+    
+    <topic>
+      API.htm
+    </topic>
+    
+    <topic>
+      Startup_Script.htm
+    </topic>
+    
+    <topic>
+      Server_and_Browser_Requirements.htm
+    </topic>
+    
+    <topic>
+      Opening_TerraExplorer_for_Web.htm
+    </topic>
+    
+    <topic>
+      Opening_a_Project_from_SkylineGlobe_Server_SGS.htm
+    </topic>
+    
+    <topic>
+      TE4W_Sidebar_Tabs.htm
+    </topic>
+    
+    <topic>
+      Logging_In.htm
+    </topic>
+    
+    <topic>
+      Logging_Out.htm
+    </topic>
+    
+    <topic>
+      Changing_Your_Password.htm
+    </topic>
+    
+    <topic>
+      URL_Parameters.htm
+    </topic>
+    
+    <topic>
+      About_Navigating.htm
+    </topic>
+    
+    <topic>
+      Navigating_Using_the_Mouse.htm
+    </topic>
+    
+    <topic>
+      Navigating_Using_the_HUD_Navigation_Controls.htm
+    </topic>
+    
+    <topic>
+      Navigating_Using_the_Keyboard.htm
+    </topic>
+    
+    <topic>
+      More_Navigation_Options_Underground_and_Rotate.htm
+    </topic>
+    
+    <topic>
+      Search.htm
+    </topic>
+    
+    <topic>
+      Setting_the_Navigation_Mode.htm
+    </topic>
+    
+    <topic>
+      Flying_to_a_Favorite_Location.htm
+    </topic>
+    
+    <topic>
+      Adding_a_Favorite_Location.htm
+    </topic>
+    
+    <topic>
+      Editing_or_Deleting_a_Favorite_Location.htm
+    </topic>
+    
+    <topic>
+      Presentations.htm
+    </topic>
+    
+    <topic>
+      About_Measurement_and_Analysis.htm
+    </topic>
+    
+    <topic>
+      Distance_and_Slope_Tool.htm
+    </topic>
+    
+    <topic>
+      Area_and_3D_Plane_Tool.htm
+    </topic>
+    
+    <topic>
+      Volume_Tool.htm
+    </topic>
+    
+    <topic>
+      Information_Query.htm
+    </topic>
+    
+    <topic>
+      Terrain_Profile.htm
+    </topic>
+    
+    <topic>
+      Contour_Map.htm
+    </topic>
+    
+    <topic>
+      Slope_Map.htm
+    </topic>
+    
+    <topic>
+      Viewshed.htm
+    </topic>
+    
+    <topic>
+      Saving_and_Displaying_Measurement_Volume_and_Analysis_Objects.htm
+    </topic>
+    
+    <topic>
+      Editing_and_Deleting_Measurement_and_Analysis_Objects.htm
+    </topic>
+    
+    <topic>
+      Selecting_Layers_for_Display.htm
+    </topic>
+    
+    <topic>
+      Working_with_Feature_Layers.htm
+    </topic>
+    
+    <topic>
+      Editing_Feature_Layer_Properties.htm
+    </topic>
+    
+    <topic>
+      Viewing_and_Editing_Feature_Attribute_Information.htm
+    </topic>
+    
+    <topic>
+      Searching_by_Attribute.htm
+    </topic>
+    
+    <topic>
+      Selecting_a_Layer_Feature_and_Displaying_its_Attribute_Information.htm
+    </topic>
+    
+    <topic>
+      Refreshing_a_Layer.htm
+    </topic>
+    
+    <topic>
+      Deleting_a_Layer.htm
+    </topic>
+    
+    <topic>
+      Flying_to_a_Layer.htm
+    </topic>
+    
+    <topic>
+      Loading_Layers_from_SkylineGlobe_Server.htm
+    </topic>
+    
+    <topic>
+      Searching_for_SkylineGlobe_Layers.htm
+    </topic>
+    
+    <topic>
+      Chapter_7_Setting_the_Display_of_the_3D_Window.htm
+    </topic>
+    
+    <topic>
+      Navigation_Controls.htm
+    </topic>
+    
+    <topic>
+      Center_Sign.htm
+    </topic>
+    
+    <topic>
+      Units.htm
+    </topic>
+    
+    <topic>
+      MGRS_Coordinates.htm
+    </topic>
+    
+    <topic>
+      Date_and_Time.htm
+    </topic>
+    
+    <topic>
+      Color_Adjustment.htm
+    </topic>
+    
+    <topic>
+      Shadow.htm
+    </topic>
+    
+  </topiclist>
+  <filenamemap>
+    <filenameentry moniker="wh_languagetype">
+      <filename>
+        en_US
+      </filename>
+    </filenameentry>
+    <filenameentry moniker="startpage">
+      <filename>
+        index.htm
+      </filename>
+    </filenameentry>
+        
+  </filenamemap>
+</ppfml>

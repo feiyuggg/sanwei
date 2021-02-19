@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Use correct character set. -->
+    <meta charset="utf-8">
+    <!-- Tell IE to use the latest, best version (or Chrome Frame if pre-IE11). -->
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
+    <!-- Make the application on mobile take up the full browser screen and disable user scaling. -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no">
+    <title>无锡市移动三维规划系统</title>
+
+    <link rel="shortcut icon" href="img/Icon.ico" type="image/x-icon"/>
+    <link rel="icon" href="img/Icon.ico" type="image/x-icon"/>	
+    
+    <link rel="stylesheet" href="./css/datePicker.css?srcVer=7.2.1.4239" type="text/css" charset="utf-8" />
+    <link rel="stylesheet" href="./css/spinner.css?srcVer=7.2.1.4239" type="text/css" charset="utf-8" />
+    <link rel="stylesheet" href="./css/jquery-ui.min.css?srcVer=7.2.1.4239" type="text/css" charset="utf-8" />
+    <link rel="stylesheet" href="./fonts/stylesheet.css?srcVer=7.2.1.4239" type="text/css" charset="utf-8" />
+
+    <script src="./js/TE4W.js?srcVer=7.2.1.4239"></script>
+    <style>
+        @import url(./Cesium/Build/Cesium/Widgets/widgets.css?srcVer=7.2.1.4239);
+        @import url(./css/TerraExplorer.css?srcVer=7.2.1.4239);
+
+        #cesiumContainer {
+            height: 100%;
+            width: 100%;
+            margin: 0;
+            overflow: hidden;
+            padding: 0;
+            font-family: sans-serif;
+        }
+
+        #mainContainer {
+            position: relative;
+            height: 100%;
+            width: auto;
+            margin: 0;
+            overflow: hidden;
+            padding: 0;
+        }
+
+        html {
+            height: 100%;
+        }
+
+        body {
+            padding: 0;
+            margin: 0;
+            overflow: hidden;
+            height: 100%;
+            font-family: 'ubunturegular';
+            background-color: black !important;
+        }
+    
+    </style>
+
+</head>
+<body   oncontextmenu="return false;" bgcolor="black">
+
+    <div id="loadingDiv">
+        <b>加载场景</b>
+    </div>
+    <div id="stepId">
+    </div>
+    <div id="mainContainer" style="visibility:hidden;">
+        <div id="cesiumContainer"></div>
+    </div>
+    <div class="s8" id="creditDiv"></div>
+    <div id="overlayDiv"><img id="overlayImg" src="" /></div>
+
+    <script>
+        startTerraExplorer4Web(
+            "mainContainer",
+            undefined,
+            undefined,
+            {
+				catalogId: "Lihuxincheng.400569", //ID or alias
+				config: "Lihuxincheng", //default is DefaultKML
+                showGUI: true //false hides all GUI elements including Sidebar, and navigation controls
+            }
+        );
+    </script>
+
+</body>
+
+
+
+</html>
+

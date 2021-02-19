@@ -1,0 +1,1 @@
+rh._.exports({"0":["Enhanced Rendering Effects"],"1":["\n","\n","A range of visual display settings can now be changed via the API, including saturation, contrast, brightness, sharpness, and lookup-table (LUT) values.","\n","\n\n\n"],"3":["Enhanced Rendering Effects"],"4":["Enhanced Rendering Effects"],"id":"84"})

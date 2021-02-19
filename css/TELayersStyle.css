@@ -1,0 +1,47 @@
+﻿.bodyLayers
+{
+    background-color:white; 
+    text-align:left;
+    /*padding:10px;*/
+    padding-top:0em;
+    /*width:1000px;
+    height:900px;*/
+    overflow-y:auto;
+}
+
+.layersControl
+{
+    padding:10px;
+}
+
+.TELayersButton
+{
+    text-align:right;
+    padding-right:1.5em;
+}
+
+.teLayersHeader
+{
+    font-size:15px;
+
+}
+
+.hide {
+    display: none;
+}
+
+.show {
+    z-index:1000;
+    position: absolute;
+    background-color:#C0C0C0;
+    border: 1px solid blue;
+    padding: 2px;
+    display: block;
+    margin: 0;
+    list-style-type: none;
+    list-style: none;
+}
+
+.show li{ list-style: none; }
+.show a { border: 0 !important; text-decoration: none; }
+.show a:hover { text-decoration: underline !important; }

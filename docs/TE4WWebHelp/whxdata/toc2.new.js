@@ -1,0 +1,1 @@
+(function() {    var toc =  [{"name":"Editors","type":"book","url":"Editors.htm","key":"toc3"},{"name":"Cloud Services","type":"book","url":"Cloud_Services.htm","key":"toc4"},{"name":"Clients","type":"book","url":"Clients.htm","key":"toc5"}];    window.rh.model.publish(rh.consts('KEY_TEMP_DATA'), toc, { sync:true });    })();

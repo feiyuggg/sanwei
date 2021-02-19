@@ -1,0 +1,548 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:image="http://www.google.com/schemas/sitemap-image/1.1"
+  xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
+
+  
+    <url>
+      <loc>About_this_Manual.htm</loc>
+      <lastmod>2019-08-27</lastmod>
+      <changefreq>monthly</changefreq>
+    </url>
+  
+    <url>
+      <loc>About_TerraExplorer_for_Web_TE4W.htm</loc>
+      <lastmod>2019-08-27</lastmod>
+      <changefreq>monthly</changefreq>
+    </url>
+  
+    <url>
+      <loc>Product_Capabilities.htm</loc>
+      <lastmod>2019-08-27</lastmod>
+      <changefreq>monthly</changefreq>
+    </url>
+  
+    <url>
+      <loc>SkylineGlobe_Software_Suite.htm</loc>
+      <lastmod>2019-08-27</lastmod>
+      <changefreq>monthly</changefreq>
+    </url>
+  
+    <url>
+      <loc>Editors.htm</loc>
+      <lastmod>2019-08-27</lastmod>
+      <changefreq>monthly</changefreq>
+    </url>
+  
+    <url>
+      <loc>TerraBuilder.htm</loc>
+      <lastmod>2019-08-27</lastmod>
+      <changefreq>monthly</changefreq>
+    </url>
+  
+    <url>
+      <loc>PhotoMesh.htm</loc>
+      <lastmod>2019-08-27</lastmod>
+      <changefreq>monthly</changefreq>
+    </url>
+  
+    <url>
+      <loc>TerraExplorer_Pro.htm</loc>
+      <lastmod>2019-08-27</lastmod>
+      <changefreq>monthly</changefreq>
+    </url>
+  
+    <url>
+      <loc>Cloud_Services.htm</loc>
+      <lastmod>2019-08-27</lastmod>
+      <changefreq>monthly</changefreq>
+    </url>
+  
+    <url>
+      <loc>SkylineGlobe_Terrain_Service.htm</loc>
+      <lastmod>2019-08-27</lastmod>
+      <changefreq>monthly</changefreq>
+    </url>
+  
+    <url>
+      <loc>SkylineGlobe_Feature_Service.htm</loc>
+      <lastmod>2019-08-27</lastmod>
+      <changefreq>monthly</changefreq>
+    </url>
+  
+    <url>
+      <loc>SkylineGlobe_Maps_Service.htm</loc>
+      <lastmod>2019-08-27</lastmod>
+      <changefreq>monthly</changefreq>
+    </url>
+  
+    <url>
+      <loc>SkylineGlobe_3D_Mesh_Service.htm</loc>
+      <lastmod>2019-08-27</lastmod>
+      <changefreq>monthly</changefreq>
+    </url>
+  
+    <url>
+      <loc>SkylineGlobe_Point_Cloud_Service.htm</loc>
+      <lastmod>2019-08-27</lastmod>
+      <changefreq>monthly</changefreq>
+    </url>
+  
+    <url>
+      <loc>Clients.htm</loc>
+      <lastmod>2019-08-27</lastmod>
+      <changefreq>monthly</changefreq>
+    </url>
+  
+    <url>
+      <loc>TerraExplorer_Desktop.htm</loc>
+      <lastmod>2019-08-27</lastmod>
+      <changefreq>monthly</changefreq>
+    </url>
+  
+    <url>
+      <loc>TerraExplorer_for_Mobile.htm</loc>
+      <lastmod>2019-08-27</lastmod>
+      <changefreq>monthly</changefreq>
+    </url>
+  
+    <url>
+      <loc>TerraExplorer_for_Web.htm</loc>
+      <lastmod>2019-08-27</lastmod>
+      <changefreq>monthly</changefreq>
+    </url>
+  
+    <url>
+      <loc>Integration_of_CAD_BIM_Models_into_Existing_3DML.htm</loc>
+      <lastmod>2019-08-27</lastmod>
+      <changefreq>monthly</changefreq>
+    </url>
+  
+    <url>
+      <loc>Improved_Support_for_BIM_CAD_Models.htm</loc>
+      <lastmod>2019-08-27</lastmod>
+      <changefreq>monthly</changefreq>
+    </url>
+  
+    <url>
+      <loc>Expanded_Support_for_On-Terrain_Drawing_Mode.htm</loc>
+      <lastmod>2019-08-27</lastmod>
+      <changefreq>monthly</changefreq>
+    </url>
+  
+    <url>
+      <loc>Support_for_On-Model_Drawing_Mode.htm</loc>
+      <lastmod>2019-08-27</lastmod>
+      <changefreq>monthly</changefreq>
+    </url>
+  
+    <url>
+      <loc>Performance_Improvements.htm</loc>
+      <lastmod>2019-08-27</lastmod>
+      <changefreq>monthly</changefreq>
+    </url>
+  
+    <url>
+      <loc>MapBox_Imagery_Provider.htm</loc>
+      <lastmod>2019-08-27</lastmod>
+      <changefreq>monthly</changefreq>
+    </url>
+  
+    <url>
+      <loc>Mobile-Friendly.htm</loc>
+      <lastmod>2019-08-27</lastmod>
+      <changefreq>monthly</changefreq>
+    </url>
+  
+    <url>
+      <loc>Support_for_Message_Popup.htm</loc>
+      <lastmod>2019-08-27</lastmod>
+      <changefreq>monthly</changefreq>
+    </url>
+  
+    <url>
+      <loc>Full_Customization_of_TerraExplorer_for_Web.htm</loc>
+      <lastmod>2019-08-27</lastmod>
+      <changefreq>monthly</changefreq>
+    </url>
+  
+    <url>
+      <loc>Bug_Fixes_and_Stability.htm</loc>
+      <lastmod>2019-08-27</lastmod>
+      <changefreq>monthly</changefreq>
+    </url>
+  
+    <url>
+      <loc>Support_for_3D_Mesh_Layers’_Ground_Surface.htm</loc>
+      <lastmod>2019-08-27</lastmod>
+      <changefreq>monthly</changefreq>
+    </url>
+  
+    <url>
+      <loc>Support_for_On-Terrain_Objects.htm</loc>
+      <lastmod>2019-08-27</lastmod>
+      <changefreq>monthly</changefreq>
+    </url>
+  
+    <url>
+      <loc>Performance_Improvements1.htm</loc>
+      <lastmod>2019-08-27</lastmod>
+      <changefreq>monthly</changefreq>
+    </url>
+  
+    <url>
+      <loc>Volume_Analysis.htm</loc>
+      <lastmod>2019-08-27</lastmod>
+      <changefreq>monthly</changefreq>
+    </url>
+  
+    <url>
+      <loc>Measurement_Tool_Improvements.htm</loc>
+      <lastmod>2019-08-27</lastmod>
+      <changefreq>monthly</changefreq>
+    </url>
+  
+    <url>
+      <loc>Save_Measurement_and_Analysis_Objects.htm</loc>
+      <lastmod>2019-08-27</lastmod>
+      <changefreq>monthly</changefreq>
+    </url>
+  
+    <url>
+      <loc>Video_on_Terrain_Object.htm</loc>
+      <lastmod>2019-08-27</lastmod>
+      <changefreq>monthly</changefreq>
+    </url>
+  
+    <url>
+      <loc>Modify_Terrain_Object.htm</loc>
+      <lastmod>2019-08-27</lastmod>
+      <changefreq>monthly</changefreq>
+    </url>
+  
+    <url>
+      <loc>Hole_on_Terrain_Object.htm</loc>
+      <lastmod>2019-08-27</lastmod>
+      <changefreq>monthly</changefreq>
+    </url>
+  
+    <url>
+      <loc>Enhanced_Rendering_Effects.htm</loc>
+      <lastmod>2019-08-27</lastmod>
+      <changefreq>monthly</changefreq>
+    </url>
+  
+    <url>
+      <loc>New_and_Improved_GUI.htm</loc>
+      <lastmod>2019-08-27</lastmod>
+      <changefreq>monthly</changefreq>
+    </url>
+  
+    <url>
+      <loc>API.htm</loc>
+      <lastmod>2019-08-27</lastmod>
+      <changefreq>monthly</changefreq>
+    </url>
+  
+    <url>
+      <loc>Startup_Script.htm</loc>
+      <lastmod>2019-08-27</lastmod>
+      <changefreq>monthly</changefreq>
+    </url>
+  
+    <url>
+      <loc>Server_and_Browser_Requirements.htm</loc>
+      <lastmod>2019-08-27</lastmod>
+      <changefreq>monthly</changefreq>
+    </url>
+  
+    <url>
+      <loc>Opening_TerraExplorer_for_Web.htm</loc>
+      <lastmod>2019-08-27</lastmod>
+      <changefreq>monthly</changefreq>
+    </url>
+  
+    <url>
+      <loc>Opening_a_Project_from_SkylineGlobe_Server_SGS.htm</loc>
+      <lastmod>2019-08-27</lastmod>
+      <changefreq>monthly</changefreq>
+    </url>
+  
+    <url>
+      <loc>TE4W_Sidebar_Tabs.htm</loc>
+      <lastmod>2019-08-27</lastmod>
+      <changefreq>monthly</changefreq>
+    </url>
+  
+    <url>
+      <loc>Logging_In.htm</loc>
+      <lastmod>2019-08-27</lastmod>
+      <changefreq>monthly</changefreq>
+    </url>
+  
+    <url>
+      <loc>Logging_Out.htm</loc>
+      <lastmod>2019-08-27</lastmod>
+      <changefreq>monthly</changefreq>
+    </url>
+  
+    <url>
+      <loc>Changing_Your_Password.htm</loc>
+      <lastmod>2019-08-27</lastmod>
+      <changefreq>monthly</changefreq>
+    </url>
+  
+    <url>
+      <loc>URL_Parameters.htm</loc>
+      <lastmod>2019-08-27</lastmod>
+      <changefreq>monthly</changefreq>
+    </url>
+  
+    <url>
+      <loc>About_Navigating.htm</loc>
+      <lastmod>2019-08-27</lastmod>
+      <changefreq>monthly</changefreq>
+    </url>
+  
+    <url>
+      <loc>Navigating_Using_the_Mouse.htm</loc>
+      <lastmod>2019-08-27</lastmod>
+      <changefreq>monthly</changefreq>
+    </url>
+  
+    <url>
+      <loc>Navigating_Using_the_HUD_Navigation_Controls.htm</loc>
+      <lastmod>2019-08-27</lastmod>
+      <changefreq>monthly</changefreq>
+    </url>
+  
+    <url>
+      <loc>Navigating_Using_the_Keyboard.htm</loc>
+      <lastmod>2019-08-27</lastmod>
+      <changefreq>monthly</changefreq>
+    </url>
+  
+    <url>
+      <loc>More_Navigation_Options_Underground_and_Rotate.htm</loc>
+      <lastmod>2019-08-27</lastmod>
+      <changefreq>monthly</changefreq>
+    </url>
+  
+    <url>
+      <loc>Search.htm</loc>
+      <lastmod>2019-08-27</lastmod>
+      <changefreq>monthly</changefreq>
+    </url>
+  
+    <url>
+      <loc>Setting_the_Navigation_Mode.htm</loc>
+      <lastmod>2019-08-27</lastmod>
+      <changefreq>monthly</changefreq>
+    </url>
+  
+    <url>
+      <loc>Flying_to_a_Favorite_Location.htm</loc>
+      <lastmod>2019-08-27</lastmod>
+      <changefreq>monthly</changefreq>
+    </url>
+  
+    <url>
+      <loc>Adding_a_Favorite_Location.htm</loc>
+      <lastmod>2019-08-27</lastmod>
+      <changefreq>monthly</changefreq>
+    </url>
+  
+    <url>
+      <loc>Editing_or_Deleting_a_Favorite_Location.htm</loc>
+      <lastmod>2019-08-27</lastmod>
+      <changefreq>monthly</changefreq>
+    </url>
+  
+    <url>
+      <loc>Presentations.htm</loc>
+      <lastmod>2019-08-27</lastmod>
+      <changefreq>monthly</changefreq>
+    </url>
+  
+    <url>
+      <loc>About_Measurement_and_Analysis.htm</loc>
+      <lastmod>2019-08-27</lastmod>
+      <changefreq>monthly</changefreq>
+    </url>
+  
+    <url>
+      <loc>Distance_and_Slope_Tool.htm</loc>
+      <lastmod>2019-08-27</lastmod>
+      <changefreq>monthly</changefreq>
+    </url>
+  
+    <url>
+      <loc>Area_and_3D_Plane_Tool.htm</loc>
+      <lastmod>2019-08-27</lastmod>
+      <changefreq>monthly</changefreq>
+    </url>
+  
+    <url>
+      <loc>Volume_Tool.htm</loc>
+      <lastmod>2019-08-27</lastmod>
+      <changefreq>monthly</changefreq>
+    </url>
+  
+    <url>
+      <loc>Information_Query.htm</loc>
+      <lastmod>2019-08-27</lastmod>
+      <changefreq>monthly</changefreq>
+    </url>
+  
+    <url>
+      <loc>Terrain_Profile.htm</loc>
+      <lastmod>2019-08-27</lastmod>
+      <changefreq>monthly</changefreq>
+    </url>
+  
+    <url>
+      <loc>Contour_Map.htm</loc>
+      <lastmod>2019-08-27</lastmod>
+      <changefreq>monthly</changefreq>
+    </url>
+  
+    <url>
+      <loc>Slope_Map.htm</loc>
+      <lastmod>2019-08-27</lastmod>
+      <changefreq>monthly</changefreq>
+    </url>
+  
+    <url>
+      <loc>Viewshed.htm</loc>
+      <lastmod>2019-08-27</lastmod>
+      <changefreq>monthly</changefreq>
+    </url>
+  
+    <url>
+      <loc>Saving_and_Displaying_Measurement_Volume_and_Analysis_Objects.htm</loc>
+      <lastmod>2019-08-27</lastmod>
+      <changefreq>monthly</changefreq>
+    </url>
+  
+    <url>
+      <loc>Editing_and_Deleting_Measurement_and_Analysis_Objects.htm</loc>
+      <lastmod>2019-08-27</lastmod>
+      <changefreq>monthly</changefreq>
+    </url>
+  
+    <url>
+      <loc>Selecting_Layers_for_Display.htm</loc>
+      <lastmod>2019-08-27</lastmod>
+      <changefreq>monthly</changefreq>
+    </url>
+  
+    <url>
+      <loc>Working_with_Feature_Layers.htm</loc>
+      <lastmod>2019-08-27</lastmod>
+      <changefreq>monthly</changefreq>
+    </url>
+  
+    <url>
+      <loc>Editing_Feature_Layer_Properties.htm</loc>
+      <lastmod>2019-08-27</lastmod>
+      <changefreq>monthly</changefreq>
+    </url>
+  
+    <url>
+      <loc>Viewing_and_Editing_Feature_Attribute_Information.htm</loc>
+      <lastmod>2019-08-27</lastmod>
+      <changefreq>monthly</changefreq>
+    </url>
+  
+    <url>
+      <loc>Searching_by_Attribute.htm</loc>
+      <lastmod>2019-08-27</lastmod>
+      <changefreq>monthly</changefreq>
+    </url>
+  
+    <url>
+      <loc>Selecting_a_Layer_Feature_and_Displaying_its_Attribute_Information.htm</loc>
+      <lastmod>2019-08-27</lastmod>
+      <changefreq>monthly</changefreq>
+    </url>
+  
+    <url>
+      <loc>Refreshing_a_Layer.htm</loc>
+      <lastmod>2019-08-27</lastmod>
+      <changefreq>monthly</changefreq>
+    </url>
+  
+    <url>
+      <loc>Deleting_a_Layer.htm</loc>
+      <lastmod>2019-08-27</lastmod>
+      <changefreq>monthly</changefreq>
+    </url>
+  
+    <url>
+      <loc>Flying_to_a_Layer.htm</loc>
+      <lastmod>2019-08-27</lastmod>
+      <changefreq>monthly</changefreq>
+    </url>
+  
+    <url>
+      <loc>Loading_Layers_from_SkylineGlobe_Server.htm</loc>
+      <lastmod>2019-08-27</lastmod>
+      <changefreq>monthly</changefreq>
+    </url>
+  
+    <url>
+      <loc>Searching_for_SkylineGlobe_Layers.htm</loc>
+      <lastmod>2019-08-27</lastmod>
+      <changefreq>monthly</changefreq>
+    </url>
+  
+    <url>
+      <loc>Chapter_7_Setting_the_Display_of_the_3D_Window.htm</loc>
+      <lastmod>2019-08-27</lastmod>
+      <changefreq>monthly</changefreq>
+    </url>
+  
+    <url>
+      <loc>Navigation_Controls.htm</loc>
+      <lastmod>2019-08-27</lastmod>
+      <changefreq>monthly</changefreq>
+    </url>
+  
+    <url>
+      <loc>Center_Sign.htm</loc>
+      <lastmod>2019-08-27</lastmod>
+      <changefreq>monthly</changefreq>
+    </url>
+  
+    <url>
+      <loc>Units.htm</loc>
+      <lastmod>2019-08-27</lastmod>
+      <changefreq>monthly</changefreq>
+    </url>
+  
+    <url>
+      <loc>MGRS_Coordinates.htm</loc>
+      <lastmod>2019-08-27</lastmod>
+      <changefreq>monthly</changefreq>
+    </url>
+  
+    <url>
+      <loc>Date_and_Time.htm</loc>
+      <lastmod>2019-08-27</lastmod>
+      <changefreq>monthly</changefreq>
+    </url>
+  
+    <url>
+      <loc>Color_Adjustment.htm</loc>
+      <lastmod>2019-08-27</lastmod>
+      <changefreq>monthly</changefreq>
+    </url>
+  
+    <url>
+      <loc>Shadow.htm</loc>
+      <lastmod>2019-08-27</lastmod>
+      <changefreq>monthly</changefreq>
+    </url>
+  
+
+</urlset>

@@ -1,0 +1,1 @@
+rh._.exports({"0":["Expanded Support for On-Terrain Drawing Mode"],"1":["\n","\n","TE4W has augmented its On-Terrain objects’ support to include polygons \n with fill, 2D entities and other object types.","\n\n\n"],"4":["Expanded Support for On-Terrain Drawing Mode"],"id":"17"})

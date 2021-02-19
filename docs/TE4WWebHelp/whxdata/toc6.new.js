@@ -1,0 +1,1 @@
+(function() {    var toc =  [{"name":"What’s New in 7.2.1","type":"book","key":"toc7"},{"name":"What’s New in 7.2","type":"book","key":"toc8"}];    window.rh.model.publish(rh.consts('KEY_TEMP_DATA'), toc, { sync:true });    })();

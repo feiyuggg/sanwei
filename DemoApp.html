@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<!-- Tell IE to use the latest, best version (or Chrome Frame if pre-IE11). -->
+		<meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<!-- Make the application on mobile take up the full browser screen and disable user scaling. -->
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no" />
+		<script src="./js/TE4W.js?srcVer=7.2.1.4239"></script>
+		<link rel="stylesheet" href="./css/demo.css" type="text/css">
+		<link rel="stylesheet" href="./css/zTreeStyle/zTreeStyle.css" type="text/css">
+		<script type="text/javascript" src="./js/jquery.js"></script>
+		<script type="text/javascript" src="./js/jquery.ztree.core.js"></script>
+		<script type="text/javascript" src="./js/jquery.ztree.excheck.js"></script>
+	</head>
+
+	<body oncontextmenu="return false;" bgcolor="black">
+		<div id="mainContainer" style="width:420px; height: 900px;">
+		</div>
+		<div class="sidebar">
+			<ul id="treeDemo" class="ztree" style="display: none;background-color: #213336;"></ul>
+		</div>
+		<div class="sidebar2">
+			<ul id="toolTree" class="ztree" style="display: none;background-color: #213336;"></ul>
+		</div>
+		<div class="nav">
+			<ul>
+				<li>
+					<a onclick="treeTool()"><span><img src="img/attributes.png" height="20"></span><span>图层</span></a>
+				</li>
+				<li style="position:relative;">
+					<a onclick="getTools()"><span><img src="img/distance.png" height="20"></span><span>工具</span></a>
+				</li>
+<!-- 				<li>
+					<a onclick="startAreaeTool()"><span><img src="img/calc_area.png" height="20"></span><span>面积</span></a>
+				</li> -->
+				<li>
+					<a onclick="clearDate()"><span><img src="./img/delete.png" height="20"></span><span>清除数据</span></a>
+				</li>
+				<li>
+					<a onclick="flyTo()"><span><img src="img/newDesign/tools_add_favorits.png" height="20"></span><span>定位</span></a>
+				</li>
+			</ul>
+		</div>
+		<script src="./js/tuceng.js" charset="UTF-8"></script>
+		<script src="./js/tools.js" charset="UTF-8"></script>
+		<script>
+			var flag = 1;
+			var flag2 = 1;
+			// function startDistanceTool() {
+			// 	TerraExplorer.analysis.distance.startTool();
+			// }
+			
+			// function startAreaeTool() {
+			// 	TerraExplorer.analysis.area.startTool();
+			// }
+
+			function startLoadLayersTool() {
+				TerraExplorer.layers.loadLayer.startTool();
+			}
+			
+			function clearDate(){
+				for(var i = 0 ; i < TerraExplorer.analysis.distance.items.length ; i++){
+					TerraExplorer.analysis.distance.items[0].delete();
+				}
+				for(var i = 0 ; i < TerraExplorer.analysis.area.items.length ; i++){
+					TerraExplorer.analysis.area.items[0].delete();
+				}
+			}
+
+			function flyTo() {
+				var allItems = TerraExplorer.layers.items
+				allItems[0].flyTo();
+			}
+			startTerraExplorer4Web(
+				"mainContainer",
+				"http://www.wxmap.com.cn/sg",
+				undefined, {
+					catalogId: "LiHuXinCheng3D.401197", //ID or alias
+					config: "LiHuXinCheng3D", //default is DefaultKML
+					// catalogId: "LihuxinchengGH.399685", //ID or alias
+					// config: "LihuxinchengGH", //default is DefaultKML
+					showGUI: false //false hides all GUI elements including Sidebar, and navigation controls
+				}
+			);
+
+			console.log("Loading Finished");
+		</script>
+		<style>
+			.sidebar {
+				position: absolute;
+				left: 5px;
+				top: 5px;
+				bottom: 0;
+				
+			}
+			.sidebar2 {
+				position: absolute;
+				left: 5px;
+				top: 380px;
+				bottom: 0;
+			}
+
+			.nav {
+				background: #0071aa;
+				padding: 10px 0 6px 0;
+				width: 100%;
+				position: fixed;
+				left: 0;
+				bottom: 0;
+			}
+
+			.nav ul {
+				height: 0px;
+			}
+
+			.nav ul li {
+				float: left;
+				width: 25%;
+				text-align: center;
+				list-style-type: none;
+				margin: 0px;
+				padding: 0px;
+			}
+
+			.nav ul li span {
+				display: block;
+				color: #fff;
+				font-size: 14px;
+				font-family: "微软雅黑";
+				line-height: 22px;
+			}
+
+			a {
+				color: #000;
+				text-decoration: none;
+			}
+
+			* {
+				padding: 0;
+				margin: 0;
+				list-style: none;
+				font-weight: normal;
+			}
+		</style>
+	</body>
+</html>

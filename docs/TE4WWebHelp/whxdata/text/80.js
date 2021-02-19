@@ -1,0 +1,1 @@
+rh._.exports({"0":["Units"],"1":["\n","\n","To set basic project settings:","\n","§"," "," ","On the ","sidebar",", click ","Settings"," "," and then in the sidebar’s ","View"," section, select the required units (Meters or Feet).","\n\n\n"],"2":["Units"],"3":["Units"],"id":"80"})

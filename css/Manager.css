@@ -1,0 +1,32 @@
+html {        height: 100%;      }
+body {        padding: 0;        margin: 0;              height: 100%;}
+
+.s16 {font-family:  Arial; font-size: 15px; font-style: normal; font-weight: normal; color: #404040; text-decoration: none; line-height:30px;}
+.s14gray {font-family:  Arial; font-size: 14px; font-style: normal; font-weight: normal; color: #808080; text-decoration: none;}
+.s36 {font-family: Arial; font-size: 36px; font-style: normal; font-weight: normal; color: #000000; text-decoration: none;}
+.s20blue {font-family: Arial; font-size: 20px; font-style: normal; font-weight: normal; color: #204699; text-decoration: none; margin-bottom:15px;}
+.s26blue {font-family: Arial; font-size: 26px; font-style: normal; font-weight: normal; color: #0088BC; text-decoration: none; margin-bottom:15px;}
+.s26red {font-family: Arial; font-size: 26px; font-style: normal; font-weight: normal; color: #ff0000; text-decoration: none; margin-bottom:15px;}
+
+.link {cursor:pointer;}
+
+
+
+.menu   {background-color:black; opacity: 0.75; position:absolute; left:55px; bottom:80px; width:250px;  font-family:  Arial, Helvetica, sans-serif; font-size: 16px; font-style: normal; font-weight: normal; color: #ffffff; text-decoration: none;}
+.dialog {background-color:black; opacity: 0.75; position:absolute; left:20px; top:130px; width:300px;  font-family:  Arial, Helvetica, sans-serif; font-size: 16px; font-style: normal; font-weight: normal; color: #ffffff; text-decoration: none;}
+.menuTable {border:1px solid white; background-color:#191919;}
+.menuHeader {background-color:#191919;}
+.menuSeparator {background-color:#ffffff; height:1px; width:100%;}
+.menuLine {cursor:pointer;}
+.menuLine:hover {background-color:#ffffffff;}
+input:checkbox {cursor:pointer;}
+a:hover {COLOR: red; text-decoration: none; cursor:pointer;}
+.searchBox {border:1px solid gray; width:250px; height:21px; background-color:Black; font-family:  Arial; font-size: 14px; font-style: normal; font-weight: normal; color: #ffffff; text-decoration: none;}
+
+.topBar {background-color:#0088BC; height:70px; width:100%;}
+.topLine {background-color:#ffffff; height:2px; width:100%;}
+.inputText {width:300px; border: 1px solid #0088BC; }
+.inputTextShort {width:300px; border: 1px solid #0088BC; }
+.blueButton {height:25px; border:0px solid white; padding-left:10px; padding-right:10px;cursor:pointer; background-color:#0088BC; color:#ffffff;font-family:  Arial; font-size: 16px; font-style: normal; font-weight: normal; }
+
+

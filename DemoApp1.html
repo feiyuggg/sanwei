@@ -1,0 +1,63 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <!-- Tell IE to use the latest, best version (or Chrome Frame if pre-IE11). -->
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1" />
+    <!-- Make the application on mobile take up the full browser screen and disable user scaling. -->
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no"
+    />
+
+  
+  
+  
+  
+
+  
+  <script src="./js/TE4W.js?srcVer=7.2.1.4239"></script>
+</head>
+
+  <body oncontextmenu="return false;" bgcolor="black">
+    <div id="mainContainer" style="width:1500px; height: 1000px;"></div>
+
+    <div class="sampleButtons">
+      <button onclick="startDistanceTool()">Start Distance Tool</button>
+      <button onclick="startAreaeTool()">Start Area Tool</button>
+      <button onclick="startLoadLayersTool()">Start Load Layers Tool</button>
+    </div>
+    <script>
+      function startDistanceTool() {
+        TerraExplorer.analysis.distance.startTool();
+      }
+
+      function startAreaeTool() {
+        TerraExplorer.analysis.area.startTool();
+      }
+
+      function startLoadLayersTool() {
+        TerraExplorer.layers.loadLayer.startTool();
+      }
+
+    startTerraExplorer4Web(
+      "mainContainer",
+      "http://skylineglobeUrl.skyline.com/sg",
+      undefined,    
+       Callback function
+      {
+        catalogId: "skylineglobe.3452110", //ID or alias
+        config: "exampleKml",
+        //default is DefaultKML
+        showGUI: true 
+        //false hides all GUI elements including Sidebar, and navigation controls
+      }
+    );
+
+      function callbackFunction() {
+        console.log("Loading Finished");
+      }
+    </script>
+  </body>
+</html>
+

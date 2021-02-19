@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:sx="http://www.skylineglobe.com/kml/ext" xmlns:gx="http://www.google.com/kml/ext/2.2">
+	<Document>
+		<sx:Terrain>
+			<sx:RasterLayer>
+				<Link>
+					<href>https://tglobe.skylineglobe.com/Imagery</href>
+					<sx:layerName>skylineglobe.tbp</sx:layerName>
+				</Link>
+				<sx:elevation>0</sx:elevation>
+			</sx:RasterLayer>
+			<sx:RasterLayer>
+				<Link>
+					<href>https://tglobe.skylineglobe.com/Elevation</href>
+					<sx:layerName>skylineglobe.tbp</sx:layerName>
+				</Link>
+				<sx:elevation>1</sx:elevation>
+			</sx:RasterLayer>
+		</sx:Terrain>
+	</Document>
+</kml>

@@ -1,0 +1,1 @@
+(function() {    var toc =  [{"name":"TerraExplorer Desktop","type":"item","url":"TerraExplorer_Desktop.htm"},{"name":"TerraExplorer for Mobile","type":"item","url":"TerraExplorer_for_Mobile.htm"},{"name":"TerraExplorer for Web","type":"item","url":"TerraExplorer_for_Web.htm"}];    window.rh.model.publish(rh.consts('KEY_TEMP_DATA'), toc, { sync:true });    })();

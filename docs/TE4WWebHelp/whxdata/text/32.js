@@ -1,0 +1,1 @@
+rh._.exports({"0":["New and Improved GUI"],"1":["\n","\n","The new release features a streamlined, reorganized application sidebar, making it easier to find the command or tool you require.","\n","\n\n\n"],"3":["Improved GUI"],"4":["New and Improved GUI"],"id":"32"})

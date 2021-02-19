@@ -1,0 +1,1 @@
+rh._.exports({"0":["Startup Script"],"1":["\n","\n","New TE4W customized configuration option enables inclusion of a custom JavaScript code to run when TE4W is opened. The JavaScript code can include access to Cesium API or any of the SGWorld API objects.","\n\n\n"],"3":["Startup Script"],"4":["Startup Script"],"id":"35"})

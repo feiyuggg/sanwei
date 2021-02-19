@@ -1,0 +1,1 @@
+rh._.exports({"0":["Improved Support for BIM/CAD Models (*)"],"1":["\n","\n","This release provides enhanced support for 3D mesh layers generated \n from CAD/BIM models, including the ability to set model position via TE4W \n API and support for models with lines.","\n\n\n"],"4":["Improved Support for BIM/CAD Models (*)"],"id":"16"})
